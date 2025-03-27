@@ -3752,7 +3752,7 @@ button.mfp-arrow {
 }
 .input1_inner:after {
     content: '';
-    display: block;
+    display: none;
     position: absolute;
     right: 20px;
     top: 23px;
