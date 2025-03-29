@@ -5,7 +5,7 @@ const Navbar = () => {
                 <div className="container">
                     {/* Logo */}
                     <div className="logo-wrapper">
-                        <a className="logo" href="index.html">
+                        <a className="logo" href="/">
                             {" "}
                             {/* <img src="img/Logo.png" className="logo-img" alt="" />{" "} */}
                             <span style={{

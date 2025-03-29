@@ -116,7 +116,13 @@ const Home = () => {
         </div>
       </header>
 
-      <section className="about section-padding">
+      <section className="about section-padding" style={{
+        backgroundImage: "url('img/slider/background.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        // filter: "blur(5px)",
+      }}>
         <div className="container">
           <div className="row">
             <div
@@ -184,353 +190,353 @@ const Home = () => {
 
 
       <section className="news section-padding bg-blck">
-  <div className="container">
-    <div className="row">
-      <div className="col-md-12">
-        <div className="section-subtitle">
-          <span>ZnZ Travel & Stays</span>
-        </div>
-        <div className="section-title">
-          <span>Attractions</span>
-        </div>
-      </div>
-    </div>
-    <div className="row">
-      <div className="col-md-12">
-        <div className="owl-carousel owl-theme">
-          {/* Existing Cards */}
-          <div className="item">
-            <div className="position-re o-hidden">
-              <img src="img/news/goldentemple1.jpg" alt="" style={{height:"500px"}} />
-              <div className="date">
-                <a href="post.html">
-                  <span>Amritsar</span>
-                </a>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="section-subtitle">
+                <span>ZnZ Travel & Stays</span>
+              </div>
+              <div className="section-title">
+                <span>Attractions</span>
               </div>
             </div>
-            <div className="con">
-              <span className="category">
-                <a href="news.html">Amritsar</a>
-              </span>
-              <h5>
-                <a href="post.html">Golden Temple</a>
-              </h5>
-            </div>
           </div>
-
-          <div className="item">
-            <div className="position-re o-hidden">
-              <img src="img/news/partition.JPG" alt="" style={{height:"500px"}} />
-              <div className="date">
-                <a href="post.html">
-                  <span>Dec</span> <i>04</i>
-                </a>
-              </div>
-            </div>
-            <div className="con">
-              <span className="category">
-                <a href="news.html">Amritsar</a>
-              </span>
-              <h5>
-                <a href="post.html">Partition Musiem</a>
-              </h5>
-            </div>
-          </div>
-
-          <div className="item">
-            <div className="position-re o-hidden">
-              <img src="img/news/jallianwalanbagh.jpg" alt="" style={{height:"500px"}} />
-              <div className="date">
-                <a href="post.html">
-                  <span>Dec</span> <i>06</i>
-                </a>
-              </div>
-            </div>
-            <div className="con">
-              <span className="category">
-                <a href="news.html">Amritsar</a>
-              </span>
-              <h5>
-                <a href="post.html">Jallian Wala Bagh</a>
-              </h5>
-            </div>
-          </div>
-
-          <div className="item">
-            <div className="position-re o-hidden">
-              <img src="img/news/ramtirath.jpg" alt="" style={{height:"500px"}}  />
-              <div className="date">
-                <a href="post.html">
-                  <span>Dec</span> <i>08</i>
-                </a>
-              </div>
-            </div>
-            <div className="con">
-              <span className="category">
-                <a href="news.html">Amritsar</a>
-              </span>
-              <h5>
-                <a href="post.html">Ram Tirath</a>
-              </h5>
-            </div>
-          </div>
-
-          <div className="item">
-            <div className="position-re o-hidden">
-              <img src="img/news/ranjitsinghstatue.JPG" alt=""style={{height:"500px"}}  />
-              <div className="date">
-                <a href="post.html">
-                  <span>Dec</span> <i>08</i>
-                </a>
-              </div>
-            </div>
-            <div className="con">
-              <span className="category">
-                <a href="news.html">Amritsar</a>
-              </span>
-              <h5>
-                <a href="post.html">Maharaja Ranjit Singh Statue</a>
-              </h5>
-            </div>
-          </div>
-
-          <div className="item">
-            <div className="position-re o-hidden">
-              <img src="img/news/waghborder.jpg" alt="" style={{height:"500px"}} />
-              <div className="date">
-                <a href="post.html">
-                  <span>Dec</span> <i>08</i>
-                </a>
-              </div>
-            </div>
-            <div className="con">
-              <span className="category">
-                <a href="news.html">Amritsar</a>
-              </span>
-              <h5>
-                <a href="post.html">Wagh Border</a>
-              </h5>
-            </div>
-          </div>
-
-          {/* New Card 1 */}
-          <div className="item">
-            <div className="position-re o-hidden">
-              <img src="img/news/sadapind.jpg" alt=""style={{height:"500px"}}  />
-              <div className="date">
-                <a href="post.html">
-                  <span>Dec</span> <i>10</i>
-                </a>
-              </div>
-            </div>
-            <div className="con">
-              <span className="category">
-                <a href="news.html">Amritsar</a>
-              </span>
-              <h5>
-                <a href="post.html">Sada Pind</a>
-              </h5>
-            </div>
-          </div>
-
-          {/* New Card 2 */}
-          <div className="item">
-            <div className="position-re o-hidden">
-              <img src="img/news/durgianatemple.jpg" alt="" style={{height:"500px"}} />
-              <div className="date">
-                <a href="post.html">
-                  <span>Dec</span> <i>12</i>
-                </a>
-              </div>
-            </div>
-            <div className="con">
-              <span className="category">
-                <a href="news.html">Amritsar</a>
-              </span>
-              <h5>
-                <a href="post.html">Durgiana Temple</a>
-              </h5>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-<div className="rooms3 section-padding">
-
-  
-  <div className="container">
-
-  <div className="col-md-12">
-        <div className="section-subtitle">
-          <span>ZnZ Travel & Stays</span>
-        </div>
-        <div className="section-title">
-          <span style={{color:"black"}}>Must Try Food Places In Amritsar</span>
-        </div>
-      </div>
-    
-    <div className="row">
-      <div className="col-md-4">
-        <div className="square-flip">
-          <div className="square bg-img" data-background="img/rooms/kulche.jpg">
-            <span className="category">
-              <a href="rooms2.html">Book</a>
-            </span>
-            <div className="square-container d-flex align-items-end justify-content-end">
-              <div className="box-title">
-                <h6>150$ / Night</h6>
-                <h4>Junior Suite</h4>
-              </div>
-            </div>
-            <div className="flip-overlay" />
-          </div>
-          <div className="square2">
-            <div className="square-container2">
-              <h6>150$ / Night</h6>
-              <h4>Junior Suite</h4>
-              <p>
-                Hotel viverra tristique ustoni miss vitae sediam neque nivamus
-                aestan.
-              </p>
-              <div className="row room-facilities mb-30">
-                <div className="col-md-6">
-                  <ul>
-                    <li>
-                      <i className="flaticon-group" /> 1-2 Persons
-                    </li>
-                    <li>
-                      <i className="flaticon-wifi" /> Free Wifi
-                    </li>
-                  </ul>
+          <div className="row">
+            <div className="col-md-12">
+              <div className="owl-carousel owl-theme">
+                {/* Existing Cards */}
+                <div className="item">
+                  <div className="position-re o-hidden">
+                    <img src="img/news/goldentemple1.jpg" alt="" style={{ height: "500px" }} />
+                    <div className="date">
+                      <a href="post.html">
+                        <span>Amritsar</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="con">
+                    <span className="category">
+                      <a href="news.html">Amritsar</a>
+                    </span>
+                    <h5>
+                      <a href="post.html">Golden Temple</a>
+                    </h5>
+                  </div>
                 </div>
-                <div className="col-md-6">
-                  <ul>
-                    <li>
-                      <i className="flaticon-bed" /> Twin Bed
-                    </li>
-                    <li>
-                      <i className="flaticon-breakfast" /> Breakfast
-                    </li>
-                  </ul>
+
+                <div className="item">
+                  <div className="position-re o-hidden">
+                    <img src="img/news/partition.JPG" alt="" style={{ height: "500px" }} />
+                    <div className="date">
+                      <a href="post.html">
+                        <span>Dec</span> <i>04</i>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="con">
+                    <span className="category">
+                      <a href="news.html">Amritsar</a>
+                    </span>
+                    <h5>
+                      <a href="post.html">Partition Musiem</a>
+                    </h5>
+                  </div>
                 </div>
-              </div>
-              <div className="btn-line">
-                <a href="room-details.html">Details</a>
+
+                <div className="item">
+                  <div className="position-re o-hidden">
+                    <img src="img/news/jallianwalanbagh.jpg" alt="" style={{ height: "500px" }} />
+                    <div className="date">
+                      <a href="post.html">
+                        <span>Dec</span> <i>06</i>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="con">
+                    <span className="category">
+                      <a href="news.html">Amritsar</a>
+                    </span>
+                    <h5>
+                      <a href="post.html">Jallian Wala Bagh</a>
+                    </h5>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <div className="position-re o-hidden">
+                    <img src="img/news/ramtirath.jpg" alt="" style={{ height: "500px" }} />
+                    <div className="date">
+                      <a href="post.html">
+                        <span>Dec</span> <i>08</i>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="con">
+                    <span className="category">
+                      <a href="news.html">Amritsar</a>
+                    </span>
+                    <h5>
+                      <a href="post.html">Ram Tirath</a>
+                    </h5>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <div className="position-re o-hidden">
+                    <img src="img/news/ranjitsinghstatue.JPG" alt="" style={{ height: "500px" }} />
+                    <div className="date">
+                      <a href="post.html">
+                        <span>Dec</span> <i>08</i>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="con">
+                    <span className="category">
+                      <a href="news.html">Amritsar</a>
+                    </span>
+                    <h5>
+                      <a href="post.html">Maharaja Ranjit Singh Statue</a>
+                    </h5>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <div className="position-re o-hidden">
+                    <img src="img/news/waghborder.jpg" alt="" style={{ height: "500px" }} />
+                    <div className="date">
+                      <a href="post.html">
+                        <span>Dec</span> <i>08</i>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="con">
+                    <span className="category">
+                      <a href="news.html">Amritsar</a>
+                    </span>
+                    <h5>
+                      <a href="post.html">Wagh Border</a>
+                    </h5>
+                  </div>
+                </div>
+
+                {/* New Card 1 */}
+                <div className="item">
+                  <div className="position-re o-hidden">
+                    <img src="img/news/sadapind.jpg" alt="" style={{ height: "500px" }} />
+                    <div className="date">
+                      <a href="post.html">
+                        <span>Dec</span> <i>10</i>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="con">
+                    <span className="category">
+                      <a href="news.html">Amritsar</a>
+                    </span>
+                    <h5>
+                      <a href="post.html">Sada Pind</a>
+                    </h5>
+                  </div>
+                </div>
+
+                {/* New Card 2 */}
+                <div className="item">
+                  <div className="position-re o-hidden">
+                    <img src="img/news/durgianatemple.jpg" alt="" style={{ height: "500px" }} />
+                    <div className="date">
+                      <a href="post.html">
+                        <span>Dec</span> <i>12</i>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="con">
+                    <span className="category">
+                      <a href="news.html">Amritsar</a>
+                    </span>
+                    <h5>
+                      <a href="post.html">Durgiana Temple</a>
+                    </h5>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="col-md-4">
-        <div className="square-flip">
-          <div className="square bg-img" data-background="img/rooms/kulche.jpg">
-            <span className="category">
-              <a href="rooms2.html">Book</a>
-            </span>
-            <div className="square-container d-flex align-items-end justify-content-end">
-              <div className="box-title">
-                <h6>200$ / Night</h6>
-                <h4>Family Room</h4>
-              </div>
+      </section>
+
+
+
+
+      <div className="rooms3 section-padding">
+
+
+        <div className="container">
+
+          <div className="col-md-12">
+            <div className="section-subtitle">
+              <span>ZnZ Travel & Stays</span>
             </div>
-            <div className="flip-overlay" />
+            <div className="section-title">
+              <span style={{ color: "black" }}>Must Try Food Places In Amritsar</span>
+            </div>
           </div>
-          <div className="square2">
-            <div className="square-container2">
-              <h6>200$ / Night</h6>
-              <h4>Family Room</h4>
-              <p>
-                Hotel viverra tristique ustoni miss vitae sediam neque nivamus
-                aestan.
-              </p>
-              <div className="row room-facilities mb-30">
-                <div className="col-md-6">
-                  <ul>
-                    <li>
-                      <i className="flaticon-group" /> 1-2 Persons
-                    </li>
-                    <li>
-                      <i className="flaticon-wifi" /> Free Wifi
-                    </li>
-                  </ul>
+
+          <div className="row">
+            <div className="col-md-4">
+              <div className="square-flip">
+                <div className="square bg-img" data-background="img/rooms/kulche.jpg">
+                  <span className="category">
+                    <a href="rooms2.html">Book</a>
+                  </span>
+                  <div className="square-container d-flex align-items-end justify-content-end">
+                    <div className="box-title">
+                      <h6>150$ / Night</h6>
+                      <h4>Junior Suite</h4>
+                    </div>
+                  </div>
+                  <div className="flip-overlay" />
                 </div>
-                <div className="col-md-6">
-                  <ul>
-                    <li>
-                      <i className="flaticon-bed" /> Twin Bed
-                    </li>
-                    <li>
-                      <i className="flaticon-breakfast" /> Breakfast
-                    </li>
-                  </ul>
+                <div className="square2">
+                  <div className="square-container2">
+                    <h6>150$ / Night</h6>
+                    <h4>Junior Suite</h4>
+                    <p>
+                      Hotel viverra tristique ustoni miss vitae sediam neque nivamus
+                      aestan.
+                    </p>
+                    <div className="row room-facilities mb-30">
+                      <div className="col-md-6">
+                        <ul>
+                          <li>
+                            <i className="flaticon-group" /> 1-2 Persons
+                          </li>
+                          <li>
+                            <i className="flaticon-wifi" /> Free Wifi
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="col-md-6">
+                        <ul>
+                          <li>
+                            <i className="flaticon-bed" /> Twin Bed
+                          </li>
+                          <li>
+                            <i className="flaticon-breakfast" /> Breakfast
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="btn-line">
+                      <a href="room-details.html">Details</a>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="btn-line">
-                <a href="room-details.html">Details</a>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="col-md-4">
-        <div className="square-flip">
-          <div className="square bg-img" data-background="img/rooms/kulche.jpg">
-            <span className="category">
-              <a href="rooms2.html">Book</a>
-            </span>
-            <div className="square-container d-flex align-items-end justify-content-end">
-              <div className="box-title">
-                <h6>250$ / Night</h6>
-                <h4>Double Room</h4>
-              </div>
-            </div>
-            <div className="flip-overlay" />
-          </div>
-          <div className="square2">
-            <div className="square-container2">
-              <h6>250$ / Night</h6>
-              <h4>Double Room</h4>
-              <p>
-                Hotel viverra tristique ustoni miss vitae sediam neque nivamus
-                aestan.
-              </p>
-              <div className="row room-facilities mb-30">
-                <div className="col-md-6">
-                  <ul>
-                    <li>
-                      <i className="flaticon-group" /> 1-2 Persons
-                    </li>
-                    <li>
-                      <i className="flaticon-wifi" /> Free Wifi
-                    </li>
-                  </ul>
+            <div className="col-md-4">
+              <div className="square-flip">
+                <div className="square bg-img" data-background="img/rooms/kulche.jpg">
+                  <span className="category">
+                    <a href="rooms2.html">Book</a>
+                  </span>
+                  <div className="square-container d-flex align-items-end justify-content-end">
+                    <div className="box-title">
+                      <h6>200$ / Night</h6>
+                      <h4>Family Room</h4>
+                    </div>
+                  </div>
+                  <div className="flip-overlay" />
                 </div>
-                <div className="col-md-6">
-                  <ul>
-                    <li>
-                      <i className="flaticon-bed" /> Twin Bed
-                    </li>
-                    <li>
-                      <i className="flaticon-breakfast" /> Breakfast
-                    </li>
-                  </ul>
+                <div className="square2">
+                  <div className="square-container2">
+                    <h6>200$ / Night</h6>
+                    <h4>Family Room</h4>
+                    <p>
+                      Hotel viverra tristique ustoni miss vitae sediam neque nivamus
+                      aestan.
+                    </p>
+                    <div className="row room-facilities mb-30">
+                      <div className="col-md-6">
+                        <ul>
+                          <li>
+                            <i className="flaticon-group" /> 1-2 Persons
+                          </li>
+                          <li>
+                            <i className="flaticon-wifi" /> Free Wifi
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="col-md-6">
+                        <ul>
+                          <li>
+                            <i className="flaticon-bed" /> Twin Bed
+                          </li>
+                          <li>
+                            <i className="flaticon-breakfast" /> Breakfast
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="btn-line">
+                      <a href="room-details.html">Details</a>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="btn-line">
-                <a href="room-details.html">Details</a>
+            </div>
+            <div className="col-md-4">
+              <div className="square-flip">
+                <div className="square bg-img" data-background="img/rooms/kulche.jpg">
+                  <span className="category">
+                    <a href="rooms2.html">Book</a>
+                  </span>
+                  <div className="square-container d-flex align-items-end justify-content-end">
+                    <div className="box-title">
+                      <h6>250$ / Night</h6>
+                      <h4>Double Room</h4>
+                    </div>
+                  </div>
+                  <div className="flip-overlay" />
+                </div>
+                <div className="square2">
+                  <div className="square-container2">
+                    <h6>250$ / Night</h6>
+                    <h4>Double Room</h4>
+                    <p>
+                      Hotel viverra tristique ustoni miss vitae sediam neque nivamus
+                      aestan.
+                    </p>
+                    <div className="row room-facilities mb-30">
+                      <div className="col-md-6">
+                        <ul>
+                          <li>
+                            <i className="flaticon-group" /> 1-2 Persons
+                          </li>
+                          <li>
+                            <i className="flaticon-wifi" /> Free Wifi
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="col-md-6">
+                        <ul>
+                          <li>
+                            <i className="flaticon-bed" /> Twin Bed
+                          </li>
+                          <li>
+                            <i className="flaticon-breakfast" /> Breakfast
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="btn-line">
+                      <a href="room-details.html">Details</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      {/* <div className="col-md-4">
+            {/* <div className="col-md-4">
         <div className="square-flip">
           <div className="square bg-img" data-background="img/rooms/6.jpg">
             <span className="category">
@@ -632,7 +638,7 @@ const Home = () => {
           </div>
         </div>
       </div> */}
-      {/* <div className="col-md-4">
+            {/* <div className="col-md-4">
         <div className="square-flip">
           <div className="square bg-img" data-background="img/rooms/9.jpg">
             <span className="category">
@@ -683,9 +689,9 @@ const Home = () => {
           </div>
         </div>
       </div> */}
-    </div>
-  </div>
-</div>
+          </div>
+        </div>
+      </div>
 
 
 
