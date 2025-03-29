@@ -1,6 +1,6 @@
 import Navbar from "./Navbar"
 import { useNavigate } from "react-router-dom"
-import { useState } from "react"; 
+import { useState } from "react";
 import Swal from "sweetalert2";
 
 import axios from "axios";
@@ -11,62 +11,62 @@ const PackageForm = () => {
         checkIn: "",
         checkOut: "",
         phoneNumber: "",
-      });
+    });
 
-      const handleChange = (e) => {
+    const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
-      };
+    };
 
-      const handleSubmit = async (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-     // ✅ Validation: Check if any field is empty
-     if (!formData.checkIn || !formData.checkOut || !formData.phoneNumber) {
-        Swal.fire({
-          icon: "error",
-          title: "Oops!",
-          text: "Please fill out all the fields!",
-        });
-        return;
-      }
-  
-      // ✅ Validation: Check if phone number is exactly 10 digits
-      if (!/^\d{10}$/.test(formData.phoneNumber)) {
-        Swal.fire({
-          icon: "error",
-          title: "Invalid Phone Number",
-          text: "Phone number must be exactly 10 digits!",
-        });
-        return;
-      }
-        const emailJSData = {
-          service_id: "service_jf6k53b",
-          template_id: "template_xyxtonl",
-          user_id: "LvEjDrCif2WTsiHUy",
-          template_params: {
-            check_in: formData.checkIn,
-            check_out: formData.checkOut,
-            phone_number: formData.phoneNumber,
-          },
-        };
-    
-        try {
-          const response = await axios.post("https://api.emailjs.com/api/v1.0/email/send", emailJSData, {
-            headers: { "Content-Type": "application/json" },
-          });
-          console.log("email sent successfully")
-          setFormData({checkIn: "", checkOut: "", phoneNumber: ""})
-
-          navigate("/viewpackage");
-        } catch (error) {
-          alert("Oops... Something went wrong!");
-          console.error("EmailJS Error:", error);
+        // ✅ Validation: Check if any field is empty
+        if (!formData.checkIn || !formData.checkOut || !formData.phoneNumber) {
+            Swal.fire({
+                icon: "error",
+                title: "Oops!",
+                text: "Please fill out all the fields!",
+            });
+            return;
         }
-      };
-    
-  
+
+        // ✅ Validation: Check if phone number is exactly 10 digits
+        if (!/^\d{10}$/.test(formData.phoneNumber)) {
+            Swal.fire({
+                icon: "error",
+                title: "Invalid Phone Number",
+                text: "Phone number must be exactly 10 digits!",
+            });
+            return;
+        }
+        const emailJSData = {
+            service_id: "service_jf6k53b",
+            template_id: "template_xyxtonl",
+            user_id: "LvEjDrCif2WTsiHUy",
+            template_params: {
+                check_in: formData.checkIn,
+                check_out: formData.checkOut,
+                phone_number: formData.phoneNumber,
+            },
+        };
+
+        try {
+            const response = await axios.post("https://api.emailjs.com/api/v1.0/email/send", emailJSData, {
+                headers: { "Content-Type": "application/json" },
+            });
+            console.log("email sent successfully")
+            setFormData({ checkIn: "", checkOut: "", phoneNumber: "" })
+
+            navigate("/viewpackage");
+        } catch (error) {
+            alert("Oops... Something went wrong!");
+            console.error("EmailJS Error:", error);
+        }
+    };
+
+
     return (
         <>
-        <Navbar/>
+            <Navbar />
             <section className="testimonials">
                 <div
                     className="background bg-img bg-fixed section-padding pb-0"
@@ -85,7 +85,7 @@ const PackageForm = () => {
                                     <i className="star-rating" />
                                 </p>
                                 <h5>
-                                Escape Awaits! Choose Your Dates & Let Us Handle the Rest!
+                                    Escape Awaits! Choose Your Dates & Let Us Handle the Rest!
                                 </h5>
                                 <div className="reservations mb-30">
                                     <div className="icon color-1">
@@ -94,7 +94,7 @@ const PackageForm = () => {
                                     <div className="text">
                                         <p className="color-1">Reservation</p>{" "}
                                         <a className="color-1" href="tel: 7717300031">
-                                        7717300031
+                                            7717300031
                                         </a>
                                     </div>
                                 </div>
@@ -112,14 +112,16 @@ const PackageForm = () => {
                                     </div>
                                     <div className="booking-inner clearfix">
                                         <form
-                                           onSubmit={handleSubmit}
+                                            onSubmit={handleSubmit}
                                             className="form1 clearfix"
-                                           
+
                                         >
                                             <div className="row">
                                                 <div className="col-md-12">
                                                     <div className="input1_wrapper">
-                                                        <label>Check in</label>
+                                                        <label style={{ display: "block", color: "black", fontSize: "16px" }}>Check In</label>
+
+
                                                         <div className="input1_inner">
                                                             <input
                                                                 type="date"
@@ -128,14 +130,15 @@ const PackageForm = () => {
                                                                 name="checkIn"
                                                                 onChange={handleChange}
                                                                 value={formData.checkIn}
-                                                               
+
                                                             />
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
                                                     <div className="input1_wrapper">
-                                                        <label>Check out</label>
+                                                    <label style={{ display: "block", color: "black", fontSize: "16px" }}>Check Out</label>
+
                                                         <div className="input1_inner" >
                                                             <input
                                                                 type="date"
@@ -144,7 +147,7 @@ const PackageForm = () => {
                                                                 name="checkOut"
                                                                 onChange={handleChange}
                                                                 value={formData.checkOut}
-                                                                
+
                                                             />
                                                         </div>
                                                     </div>
@@ -152,7 +155,8 @@ const PackageForm = () => {
 
                                                 <div className="col-md-12">
                                                     <div className="input1_wrapper">
-                                                        <label>Phone Number</label>
+                                                    <label style={{ display: "block", color: "black", fontSize: "16px" }}>Phone Number</label>
+
                                                         <div className="input1_inner">
                                                             <input
                                                                 type="number"
@@ -161,17 +165,17 @@ const PackageForm = () => {
                                                                 name="phoneNumber"
                                                                 onChange={handleChange}
                                                                 value={formData.phoneNumber}
-                                                               
-                                                               
+
+
                                                             />
                                                         </div>
                                                     </div>
                                                 </div>
-                                              
-                                                
+
+
                                                 <div className="col-md-12">
                                                     <button type="submit" className="btn-form1-submit mt-15">
-                                                       View Packages
+                                                        View Packages
                                                     </button>
                                                 </div>
                                             </div>
