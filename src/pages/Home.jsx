@@ -104,12 +104,12 @@ const Home = () => {
         </div>
         {/* slider reservation */}
         <div className="reservation">
-          <a href="tel: 7717300031">
+          <a href="tel: +91-8054540854">
             <div className="icon d-flex justify-content-center align-items-center">
               <i className="flaticon-call" />
             </div>
             <div className="call">
-              <span> 7717300031</span> <br />
+              <span> +91-8054540854</span> <br />
               Reservation
             </div>
           </a>
@@ -166,7 +166,7 @@ const Home = () => {
                   <span className="flaticon-call" />
                 </div>
                 <div className="text">
-                  <p>Reservation</p> <a href="tel:855-100-4444">77173-00031</a>
+                  <p>Reservation</p> <a href="tel:+91-8054540854">+91-8054540854</a>
                 </div>
               </div>
             </div>
@@ -238,7 +238,7 @@ const Home = () => {
                       <a href="news.html">Amritsar</a>
                     </span>
                     <h5>
-                      <a href="post.html">Partition Musiem</a>
+                      <a href="post.html">Partition Museum</a>
                     </h5>
                   </div>
                 </div>
@@ -257,7 +257,7 @@ const Home = () => {
                       <a href="news.html">Amritsar</a>
                     </span>
                     <h5>
-                      <a href="post.html">Jallian Wala Bagh</a>
+                      <a href="post.html">Jallianwala Bagh</a>
                     </h5>
                   </div>
                 </div>
@@ -276,7 +276,7 @@ const Home = () => {
                       <a href="news.html">Amritsar</a>
                     </span>
                     <h5>
-                      <a href="post.html">Ram Tirath</a>
+                      <a href="post.html">Temple</a>
                     </h5>
                   </div>
                 </div>
@@ -314,7 +314,7 @@ const Home = () => {
                       <a href="news.html">Amritsar</a>
                     </span>
                     <h5>
-                      <a href="post.html">Wagh Border</a>
+                      <a href="post.html">Wagah Border</a>
                     </h5>
                   </div>
                 </div>
