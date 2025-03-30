@@ -79,10 +79,10 @@ const DayOnePackage = () => {
                                     1:30 PM — Special Amritsari Kulcha Break (On Us!)
                                     Time for a mouthwatering treat — enjoy piping hot, authentic Amritsari Kulchas with chole and lassi at one of the city's famous spots. This one's on us — your meal is covered!
                                     <br />
-                                    
+
                                 </p>
                                 <p className="mb-30">
-                                2:00 PM — Depart for Wagah Border
+                                    2:00 PM — Depart for Wagah Border
                                     Head towards the Wagah Border early to secure a good viewing spot for the electrifying Beating Retreat Ceremony.
                                     <br /><br />
                                     4:00 PM — Wagah Border Ceremony
@@ -219,7 +219,7 @@ const DayOnePackage = () => {
                                             <p>Towels</p>
                                         </div>
                                     </li>
-                                   
+
                                 </ul>
                             </div>
                         </div>

@@ -7,6 +7,7 @@ import About from './pages/About';
 import PackageForm from './pages/PackageForm';
 import ViewPackage from './pages/ViewPackege';
 import DayOnePackage from './pages/DayOnePackage';
+import DayTwoPackage from './pages/DayTwoPackage';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route path="/packageform" element={<PackageForm/>} />
       <Route path="/viewpackage" element={<ViewPackage/>} />
       <Route path="/dayone" element={<DayOnePackage/>} />
+      <Route path="/daytwo" element={<DayTwoPackage/>} />
       
     </Routes>
   );

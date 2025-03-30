@@ -93,8 +93,8 @@ const PackageForm = () => {
                                     </div>
                                     <div className="text">
                                         <p className="color-1">Reservation</p>{" "}
-                                        <a className="color-1" href="tel: 7717300031">
-                                            7717300031
+                                        <a className="color-1" href="tel: +91-8054540854">
+                                            +91-8054540854
                                         </a>
                                     </div>
                                 </div>
