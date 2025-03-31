@@ -34,7 +34,15 @@ const DayOnePackage = () => {
                     </div>
                 </header>
                 {/* Room Content */}
-                <section className="rooms-page section-padding" data-scroll-index={1}>
+                <section className="rooms-page section-padding" data-scroll-index={1}
+                style={{
+                    backgroundImage: "url('img/slider/background.jpg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    // filter: "blur(5px)",
+                  }}
+                  >
                     <div className="container">
                         {/* project content */}
                         <div className="row">
@@ -50,7 +58,8 @@ const DayOnePackage = () => {
                                 <div className="section-title">Day 1 Trip</div>
                             </div>
                             <div className="col-md-8">
-                                <p className="mb-30">
+                                <p className="mb-30"style={{  fontSize: "16px",
+                                                        fontWeight: "bold"}}>
                                     9:00 AM — Golden Temple Darshan
                                     Begin your day with a peaceful visit to the Golden Temple. Immerse yourself in the spiritual aura and admire the breathtaking architecture reflected in the holy Sarovar.
                                     <br />
@@ -81,7 +90,8 @@ const DayOnePackage = () => {
                                     <br />
 
                                 </p>
-                                <p className="mb-30">
+                                <p className="mb-30"style={{  fontSize: "16px",
+                                                        fontWeight: "bold"}}>
                                     2:00 PM — Depart for Wagah Border
                                     Head towards the Wagah Border early to secure a good viewing spot for the electrifying Beating Retreat Ceremony.
                                     <br /><br />

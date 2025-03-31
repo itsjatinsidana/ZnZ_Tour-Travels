@@ -34,7 +34,14 @@ const DayTwoPackage = () => {
                     </div>
                 </header>
                 {/* Room Content */}
-                <section className="rooms-page section-padding" data-scroll-index={1}>
+                <section className="rooms-page section-padding" data-scroll-index={1}
+                style={{
+                    backgroundImage: "url('img/slider/background.jpg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    // filter: "blur(5px)",
+                  }}>
                     <div className="container">
                         {/* project content */}
                         <div className="row">
@@ -50,7 +57,8 @@ const DayTwoPackage = () => {
                                 <div className="section-title">Day 1 Trip</div>
                             </div>
                             <div className="col-md-8">
-                                <p className="mb-30">
+                                <p className="mb-30"style={{  fontSize: "16px",
+                                                        fontWeight: "bold"}}>
                                     9:00 AM — Golden Temple Darshan
                                     Begin your day with a peaceful visit to the Golden Temple. Immerse yourself in the spiritual aura and admire the breathtaking architecture reflected in the holy Sarovar.
                                     <br />
@@ -154,7 +162,8 @@ const DayTwoPackage = () => {
 
                                 <div className="section-title">Day 2 Trip</div>
                                 <div className="col-md-12">
-                                    <p className="mb-30">
+                                    <p className="mb-30" style={{  fontSize: "16px",
+                                                        fontWeight: "bold"}}>
                                         Start Time: 9:30 AM
                                         <br />
                                         9:30 AM — Visit Shaheeda Sahib
