@@ -8,6 +8,7 @@ import PackageForm from './pages/PackageForm';
 import ViewPackage from './pages/ViewPackege';
 import DayOnePackage from './pages/DayOnePackage';
 import DayTwoPackage from './pages/DayTwoPackage';
+import DayThreePackage from './pages/DayThreePackage';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Route path="/viewpackage" element={<ViewPackage/>} />
       <Route path="/dayone" element={<DayOnePackage/>} />
       <Route path="/daytwo" element={<DayTwoPackage/>} />
+      <Route path="/daythree" element={<DayThreePackage/>} />
       
     </Routes>
   );

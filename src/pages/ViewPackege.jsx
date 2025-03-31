@@ -79,7 +79,7 @@ const ViewPackage = () =>{
               <div className="row facilities">
                 <div className="col col-md-5 text-end">
                   <div className="permalink">
-                    <a href="room-details.html">Details <i className="ti-arrow-right" /></a>
+                    <a href="/daythree">Details <i className="ti-arrow-right" /></a>
                   </div>
                 </div>
               </div>

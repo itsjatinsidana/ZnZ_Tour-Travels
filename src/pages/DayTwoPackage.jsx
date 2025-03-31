@@ -70,14 +70,7 @@ const DayTwoPackage = () => {
                                             </div>
                                         </div>
 
-                                        <div className="col-md-12">
-                                            <div className="butn-dark mt-15 mb-30">
-                                                {" "}
-                                                <a href="rooms2.html">
-                                                    <span>Book Now</span>
-                                                </a>{" "}
-                                            </div>
-                                        </div>
+                                        
                                     </div>
                                     <div className="modal fade" id="exampleModal" tabIndex="-1">
                                         <div className="modal-dialog  modal-xl modal-dialog-scrollable">
@@ -187,14 +180,7 @@ const DayTwoPackage = () => {
                                                 </div>
                                             </div>
 
-                                            <div className="col-md-12">
-                                                <div className="butn-dark mt-15 mb-30">
-                                                    {" "}
-                                                    <a href="rooms2.html">
-                                                        <span>Book Now</span>
-                                                    </a>{" "}
-                                                </div>
-                                            </div>
+                                           
                                         </div>
                                         <div className="modal fade" id="exampleModal2" tabIndex="-1">
                                             <div className="modal-dialog  modal-xl modal-dialog-scrollable">
