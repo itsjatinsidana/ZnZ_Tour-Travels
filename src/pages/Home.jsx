@@ -367,332 +367,125 @@ const Home = () => {
 
 
 
-
-      <div className="rooms3 section-padding">
-
-
+      <section className="rooms-page section-padding" data-scroll-index={1}>
         <div className="container">
-
-          <div className="col-md-12">
-            <div className="section-subtitle">
-              <span>ZnZ Travel & Stays</span>
-            </div>
-            <div className="section-title">
-              <span style={{ color: "black" }}>Must Try Food Places In Amritsar</span>
-            </div>
-          </div>
-
           <div className="row">
-            <div className="col-md-4">
-              <div className="square-flip">
-                <div className="square bg-img" data-background="img/rooms/kulche.jpg">
-                  <span className="category">
-                    <a href="rooms2.html">Book</a>
-                  </span>
-                  <div className="square-container d-flex align-items-end justify-content-end">
-                    <div className="box-title">
-                      <h6>150$ / Night</h6>
-                      <h4>Junior Suite</h4>
-                    </div>
-                  </div>
-                  <div className="flip-overlay" />
-                </div>
-                <div className="square2">
-                  <div className="square-container2">
-                    <h6>150$ / Night</h6>
-                    <h4>Junior Suite</h4>
-                    <p>
-                      Hotel viverra tristique ustoni miss vitae sediam neque nivamus
-                      aestan.
-                    </p>
-                    <div className="row room-facilities mb-30">
-                      <div className="col-md-6">
-                        <ul>
-                          <li>
-                            <i className="flaticon-group" /> 1-2 Persons
-                          </li>
-                          <li>
-                            <i className="flaticon-wifi" /> Free Wifi
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="col-md-6">
-                        <ul>
-                          <li>
-                            <i className="flaticon-bed" /> Twin Bed
-                          </li>
-                          <li>
-                            <i className="flaticon-breakfast" /> Breakfast
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="btn-line">
-                      <a href="room-details.html">Details</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="square-flip">
-                <div className="square bg-img" data-background="img/rooms/kulche.jpg">
-                  <span className="category">
-                    <a href="rooms2.html">Book</a>
-                  </span>
-                  <div className="square-container d-flex align-items-end justify-content-end">
-                    <div className="box-title">
-                      <h6>200$ / Night</h6>
-                      <h4>Family Room</h4>
-                    </div>
-                  </div>
-                  <div className="flip-overlay" />
-                </div>
-                <div className="square2">
-                  <div className="square-container2">
-                    <h6>200$ / Night</h6>
-                    <h4>Family Room</h4>
-                    <p>
-                      Hotel viverra tristique ustoni miss vitae sediam neque nivamus
-                      aestan.
-                    </p>
-                    <div className="row room-facilities mb-30">
-                      <div className="col-md-6">
-                        <ul>
-                          <li>
-                            <i className="flaticon-group" /> 1-2 Persons
-                          </li>
-                          <li>
-                            <i className="flaticon-wifi" /> Free Wifi
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="col-md-6">
-                        <ul>
-                          <li>
-                            <i className="flaticon-bed" /> Twin Bed
-                          </li>
-                          <li>
-                            <i className="flaticon-breakfast" /> Breakfast
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="btn-line">
-                      <a href="room-details.html">Details</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="square-flip">
-                <div className="square bg-img" data-background="img/rooms/kulche.jpg">
-                  <span className="category">
-                    <a href="rooms2.html">Book</a>
-                  </span>
-                  <div className="square-container d-flex align-items-end justify-content-end">
-                    <div className="box-title">
-                      <h6>250$ / Night</h6>
-                      <h4>Double Room</h4>
-                    </div>
-                  </div>
-                  <div className="flip-overlay" />
-                </div>
-                <div className="square2">
-                  <div className="square-container2">
-                    <h6>250$ / Night</h6>
-                    <h4>Double Room</h4>
-                    <p>
-                      Hotel viverra tristique ustoni miss vitae sediam neque nivamus
-                      aestan.
-                    </p>
-                    <div className="row room-facilities mb-30">
-                      <div className="col-md-6">
-                        <ul>
-                          <li>
-                            <i className="flaticon-group" /> 1-2 Persons
-                          </li>
-                          <li>
-                            <i className="flaticon-wifi" /> Free Wifi
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="col-md-6">
-                        <ul>
-                          <li>
-                            <i className="flaticon-bed" /> Twin Bed
-                          </li>
-                          <li>
-                            <i className="flaticon-breakfast" /> Breakfast
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="btn-line">
-                      <a href="room-details.html">Details</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <div className="col-md-4">
-        <div className="square-flip">
-          <div className="square bg-img" data-background="img/rooms/6.jpg">
-            <span className="category">
-              <a href="rooms2.html">Book</a>
-            </span>
-            <div className="square-container d-flex align-items-end justify-content-end">
-              <div className="box-title">
-                <h6>300$ / Night</h6>
-                <h4>Deluxe Room</h4>
-              </div>
-            </div>
-            <div className="flip-overlay" />
-          </div>
-          <div className="square2">
-            <div className="square-container2">
-              <h6>300$ / Night</h6>
-              <h4>Deluxe Room</h4>
-              <p>
-                Hotel viverra tristique ustoni miss vitae sediam neque nivamus
-                aestan.
+            <div className="col-md-12">
+              {" "}
+              <span>
+                <i className="star-rating" />
+                <i className="star-rating" />
+                <i className="star-rating" />
+                <i className="star-rating" />
+                <i className="star-rating" />
+              </span>
+              <div className="section-subtitle">ZnZ Tour and Travels</div>
+              <div className="section-title">Must-Try Food
+                Places in Amritsar</div>
+              <p className="mb-30" style={{
+                fontSize: "16px",
+                fontWeight: "bold"
+              }}>
+                Amritsar, the culinary heart of Punjab, offers a delightful mix of vegetarian and non-vegetarian dishes that cater to every taste. From the iconic Amritsari Kulcha and Langar at the Golden Temple for vegetarians to the mouth-watering Tandoori Chicken and Fish Amritsari for non-veg lovers, the city is a paradise for foodies. Whether you crave rich, buttery flavors or spicy tandoori delights, Amritsar’s street food and dhabas serve up authentic Punjabi flavors that you simply can’t miss!
               </p>
-              <div className="row room-facilities mb-30">
-                <div className="col-md-6">
-                  <ul>
-                    <li>
-                      <i className="flaticon-group" /> 1-2 Persons
-                    </li>
-                    <li>
-                      <i className="flaticon-wifi" /> Free Wifi
-                    </li>
-                  </ul>
+            </div>
+            <div className="col-md-12">
+              <div className="reservations">
+                <div className="icon">
+                  <span className="flaticon-call" />
                 </div>
-                <div className="col-md-6">
-                  <ul>
-                    <li>
-                      <i className="flaticon-bed" /> Twin Bed
-                    </li>
-                    <li>
-                      <i className="flaticon-breakfast" /> Breakfast
-                    </li>
-                  </ul>
+                <div className="text">
+                  <p>Reservations</p> <a href="tel:+91-8054540854">+91-8054540854</a>
                 </div>
-              </div>
-              <div className="btn-line">
-                <a href="room-details.html">Details</a>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="col-md-4">
-        <div className="square-flip">
-          <div className="square bg-img" data-background="img/rooms/8.jpg">
-            <span className="category">
-              <a href="rooms2.html">Book</a>
-            </span>
-            <div className="square-container d-flex align-items-end justify-content-end">
-              <div className="box-title">
-                <h6>350$ / Night</h6>
-                <h4>Superior Room</h4>
+      </section>
+      <section className="services ">
+        <div className="container">
+          <div className="row">
+            <div
+              className="col-md-6 p-0 animate-box"
+              data-animate-effect="fadeInLeft"
+            >
+              <div className="img left">
+                <a href="post.html">
+                  <img src="img/spa/veg.png" alt="" style={{height:"490px"}} />
+                </a>
               </div>
             </div>
-            <div className="flip-overlay" />
-          </div>
-          <div className="square2">
-            <div className="square-container2">
-              <h6>350$ / Night</h6>
-              <h4>Superior Room</h4>
-              <p>
-                Hotel viverra tristique ustoni miss vitae sediam neque nivamus
-                aestan.
-              </p>
-              <div className="row room-facilities mb-30">
-                <div className="col-md-6">
-                  <ul>
-                    <li>
-                      <i className="flaticon-group" /> 1-2 Persons
-                    </li>
-                    <li>
-                      <i className="flaticon-wifi" /> Free Wifi
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-md-6">
-                  <ul>
-                    <li>
-                      <i className="flaticon-bed" /> Twin Bed
-                    </li>
-                    <li>
-                      <i className="flaticon-breakfast" /> Breakfast
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="btn-line">
-                <a href="room-details.html">Details</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-            {/* <div className="col-md-4">
-        <div className="square-flip">
-          <div className="square bg-img" data-background="img/rooms/9.jpg">
-            <span className="category">
-              <a href="rooms2.html">Book</a>
-            </span>
-            <div className="square-container d-flex align-items-end justify-content-end">
-              <div className="box-title">
-                <h6>400$ / Night</h6>
-                <h4>Wellness Room</h4>
-              </div>
-            </div>
-            <div className="flip-overlay" />
-          </div>
-          <div className="square2">
-            <div className="square-container2">
-              <h6>400$ / Night</h6>
-              <h4>Wellness Room</h4>
-              <p>
-                Hotel viverra tristique ustoni miss vitae sediam neque nivamus
-                aestan.
-              </p>
-              <div className="row room-facilities mb-30">
-                <div className="col-md-6">
-                  <ul>
-                    <li>
-                      <i className="flaticon-group" /> 1-2 Persons
-                    </li>
-                    <li>
-                      <i className="flaticon-wifi" /> Free Wifi
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-md-6">
-                  <ul>
-                    <li>
-                      <i className="flaticon-bed" /> Twin Bed
-                    </li>
-                    <li>
-                      <i className="flaticon-breakfast" /> Breakfast
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="btn-line">
-                <a href="room-details.html">Details</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-          </div>
-        </div>
-      </div>
+            <div
+              className="col-md-6 p-0 bg-cream valign animate-box"
+              data-animate-effect="fadeInRight"
+            >
+              <div className="content">
+                <div className="cont text-left">
 
+                  <h4>🍃 Vegetarian Food in Amritsar</h4>
+                  <p>
+                    Amritsar is a paradise for vegetarians, offering some of the most flavorful and iconic Punjabi dishes. The legendary Amritsari Kulcha, stuffed with spiced potatoes or paneer, served with tangy chole and pickles, is a must-try. No visit is complete without experiencing the Langar at the Golden Temple, where thousands are served a wholesome, simple meal daily. Traditional dishes like Sarson da Saag with Makki di Roti, paired with white butter and jaggery, showcase the rich flavors of Punjab. Don’t forget to try Lassi, a thick and creamy yogurt drink, perfect to cool down after a spicy meal!
+                  </p>
+                  <p>
+                    <span className="flaticon-clock" /> Daily: 7.00 am to 9.00 pm{" "}
+
+                  </p>
+
+                </div>
+                <div className="col-md-4">
+                  <div className="butn-dark mt-15 mb-30">
+                    {" "}
+                    <a href="rooms2.html">
+                      <span>View Veg places</span>
+                    </a>{" "}
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div className="row">
+            <div
+              className="col-md-6 bg-cream p-0 order2 valign animate-box"
+              data-animate-effect="fadeInLeft"
+            >
+              <div className="content">
+                <div className="cont text-left">
+
+                  <h4>🍗 Non-Vegetarian Food in Amritsar</h4>
+                  <p>
+                    For non-vegetarian food lovers, Amritsar is nothing short of a culinary haven. The city is famous for its Tandoori Chicken, marinated in yogurt and spices, then roasted to perfection in a traditional clay oven. Another local favorite is Fish Amritsari, crispy, deep-fried fish fillets infused with tangy flavors. If you love rich and creamy dishes, Butter Chicken and Mutton Curry served with naan or rice will leave you craving for more. The famous dhabas and street food joints in Amritsar offer an unmatched taste of Punjab’s bold and hearty non-veg delights.
+                  </p>
+                  <p>
+                    <span className="flaticon-clock" /> Daily: 6.00 am to 9.00 pm{" "}
+                  </p>
+                </div>
+                <div className="col-md-4">
+                  <div className="butn-dark mt-15 mb-30">
+                    {" "}
+                    <a href="rooms2.html">
+                      <span>View Non-veg places</span>
+                    </a>{" "}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-6 p-0 order1 animate-box"
+              data-animate-effect="fadeInRight"
+            >
+              <div className="img">
+                <a href="post2.html">
+                  <img src="img/spa/nonveg.png" alt="" style={{height:"490px"}}/>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
 
 
     </>
