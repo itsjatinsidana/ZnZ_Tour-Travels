@@ -9,6 +9,7 @@ import ViewPackage from './pages/ViewPackege';
 import DayOnePackage from './pages/DayOnePackage';
 import DayTwoPackage from './pages/DayTwoPackage';
 import DayThreePackage from './pages/DayThreePackage';
+import VegFood from './pages/VegFood';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Route path="/dayone" element={<DayOnePackage/>} />
       <Route path="/daytwo" element={<DayTwoPackage/>} />
       <Route path="/daythree" element={<DayThreePackage/>} />
+      <Route path="/vegfood" element={<VegFood/>} />
       
     </Routes>
   );

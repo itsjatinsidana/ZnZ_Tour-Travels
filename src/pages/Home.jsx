@@ -435,8 +435,8 @@ const Home = () => {
                 <div className="col-md-4">
                   <div className="butn-dark mt-15 mb-30">
                     {" "}
-                    <a href="rooms2.html">
-                      <span>View Veg places</span>
+                    <a href="/vegfood">
+                      <span>View Veg Food</span>
                     </a>{" "}
                   </div>
                 </div>
@@ -466,7 +466,7 @@ const Home = () => {
                   <div className="butn-dark mt-15 mb-30">
                     {" "}
                     <a href="rooms2.html">
-                      <span>View Non-veg places</span>
+                      <span>View Non-veg Food</span>
                     </a>{" "}
                   </div>
                 </div>
