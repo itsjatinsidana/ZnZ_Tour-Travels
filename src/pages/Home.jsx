@@ -108,8 +108,8 @@ const Home = () => {
             <div className="icon d-flex justify-content-center align-items-center">
               <i className="flaticon-call" />
             </div>
-            <div className="call">
-              <span> +91-8054540854</span> <br />
+            <div className="call" style={{backgroundColor:"#D9EAFD"}}>
+              <span> +91-80-54-54-08-54</span> <br />
               Reservation
             </div>
           </a>
@@ -136,7 +136,7 @@ const Home = () => {
                 <i className="star-rating" />
                 <i className="star-rating" />
               </span>
-              <div className="section-subtitle">ZnZ Travel & Stays</div>
+              <div className="section-title">ZnZ Travel & Stays</div>
               <div className="section-title">Discover the Culture, Heritage, and
                 Treasures of Amritsar with us.</div>
               <p>
@@ -166,7 +166,7 @@ const Home = () => {
                   <span className="flaticon-call" />
                 </div>
                 <div className="text">
-                  <p>Reservation</p> <a href="tel:+91-8054540854">+91-8054540854</a>
+                  <p>Reservation</p> <a href="tel:+91-8054540854">+91-80-54-54-08-54</a>
                 </div>
               </div>
             </div>
@@ -229,7 +229,7 @@ const Home = () => {
                     <img src="img/news/partition.JPG" alt="" style={{ height: "500px" }} />
                     <div className="date">
                       <a href="post.html">
-                        <span>Dec</span> <i>04</i>
+                      <span>Amritsar</span>
                       </a>
                     </div>
                   </div>
@@ -248,7 +248,7 @@ const Home = () => {
                     <img src="img/news/jallianwalanbagh.jpg" alt="" style={{ height: "500px" }} />
                     <div className="date">
                       <a href="post.html">
-                        <span>Dec</span> <i>06</i>
+                      <span>Amritsar</span>
                       </a>
                     </div>
                   </div>
@@ -267,7 +267,7 @@ const Home = () => {
                     <img src="img/news/ramtirath.jpg" alt="" style={{ height: "500px" }} />
                     <div className="date">
                       <a href="post.html">
-                        <span>Dec</span> <i>08</i>
+                      <span>Amritsar</span>
                       </a>
                     </div>
                   </div>
@@ -286,7 +286,7 @@ const Home = () => {
                     <img src="img/news/ranjitsinghstatue.JPG" alt="" style={{ height: "500px" }} />
                     <div className="date">
                       <a href="post.html">
-                        <span>Dec</span> <i>08</i>
+                      <span>Amritsar</span>
                       </a>
                     </div>
                   </div>
@@ -305,7 +305,7 @@ const Home = () => {
                     <img src="img/news/waghborder.jpg" alt="" style={{ height: "500px" }} />
                     <div className="date">
                       <a href="post.html">
-                        <span>Dec</span> <i>08</i>
+                      <span>Amritsar</span>
                       </a>
                     </div>
                   </div>
@@ -325,7 +325,7 @@ const Home = () => {
                     <img src="img/news/sadapind.jpg" alt="" style={{ height: "500px" }} />
                     <div className="date">
                       <a href="post.html">
-                        <span>Dec</span> <i>10</i>
+                      <span>Amritsar</span>
                       </a>
                     </div>
                   </div>
@@ -345,7 +345,7 @@ const Home = () => {
                     <img src="img/news/durgianatemple.jpg" alt="" style={{ height: "500px" }} />
                     <div className="date">
                       <a href="post.html">
-                        <span>Dec</span> <i>12</i>
+                      <span>Amritsar</span>
                       </a>
                     </div>
                   </div>
@@ -395,7 +395,7 @@ const Home = () => {
                   <span className="flaticon-call" />
                 </div>
                 <div className="text">
-                  <p>Reservations</p> <a href="tel:+91-8054540854">+91-8054540854</a>
+                  <p>Reservations</p> <a href="tel:+91-8054540854">+91-80-54-54-08-54</a>
                 </div>
               </div>
             </div>

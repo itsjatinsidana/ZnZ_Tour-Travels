@@ -40,7 +40,7 @@ const VegFood = () =>{
               <div className="date">
                 <a href="post.html">
                   {" "}
-                  <span>Dec</span> <i>02</i>{" "}
+                  <span>Amritsar</span>
                 </a>
               </div>
             </div>
@@ -50,7 +50,7 @@ const VegFood = () =>{
                 <a href="news.html">Special</a>
               </span>
               <h5>
-                <a href="post.html">Maki di roti/Sarson ka sagh</a>
+                <a href="post.html">Maki di roti/Sarson ka saag</a>
               </h5>
             </div>
           </div>
@@ -63,7 +63,7 @@ const VegFood = () =>{
               <div className="date">
                 <a href="post.html">
                   {" "}
-                  <span>Dec</span> <i>04</i>{" "}
+                  <span>Amritsar</span>
                 </a>
               </div>
             </div>
@@ -86,7 +86,7 @@ const VegFood = () =>{
               <div className="date">
                 <a href="post.html">
                   {" "}
-                  <span>Dec</span> <i>06</i>{" "}
+                  <span>Amritsar</span>
                 </a>
               </div>
             </div>
@@ -109,7 +109,7 @@ const VegFood = () =>{
               <div className="date">
                 <a href="post.html">
                   {" "}
-                  <span>Dec</span> <i>08</i>{" "}
+                  <span>Amritsar</span>
                 </a>
               </div>
             </div>
@@ -118,7 +118,7 @@ const VegFood = () =>{
                 <a href="news.html">Special</a>
               </span>
               <h5>
-                <a href="post.html">Kahana ki puri</a>
+                <a href="post.html">Kanha ki puri</a>
               </h5>
             </div>
           </div>
@@ -131,7 +131,7 @@ const VegFood = () =>{
               <div className="date">
                 <a href="post.html">
                   {" "}
-                  <span>Dec</span> <i>08</i>{" "}
+                  <span>Amritsar</span>
                 </a>
               </div>
             </div>
@@ -141,7 +141,7 @@ const VegFood = () =>{
                 <a href="news.html">Design</a>
               </span>
               <h5>
-                <a href="post.html">Panner Butter Masala</a>
+                <a href="post.html">Paneer Butter Masala</a>
               </h5>
             </div>
           </div>
@@ -154,7 +154,7 @@ const VegFood = () =>{
               <div className="date">
                 <a href="post.html">
                   {" "}
-                  <span>Dec</span> <i>08</i>{" "}
+                  <span>Amritsar</span>
                 </a>
               </div>
             </div>
@@ -178,7 +178,7 @@ const VegFood = () =>{
               <div className="date">
                 <a href="post.html">
                   {" "}
-                  <span>Dec</span> <i>08</i>{" "}
+                  <span>Amritsar</span>
                 </a>
               </div>
             </div>
@@ -201,7 +201,7 @@ const VegFood = () =>{
               <div className="date">
                 <a href="post.html">
                   {" "}
-                  <span>Dec</span> <i>08</i>{" "}
+                  <span>Amritsar</span>
                 </a>
               </div>
             </div>
@@ -224,7 +224,7 @@ const VegFood = () =>{
               <div className="date">
                 <a href="post.html">
                   {" "}
-                  <span>Dec</span> <i>08</i>{" "}
+                  <span>Amritsar</span>
                 </a>
               </div>
             </div>
@@ -247,7 +247,7 @@ const VegFood = () =>{
               <div className="date">
                 <a href="post.html">
                   {" "}
-                  <span>Dec</span> <i>08</i>{" "}
+                  <span>Amritsar</span>
                 </a>
               </div>
             </div>
@@ -270,7 +270,7 @@ const VegFood = () =>{
               <div className="date">
                 <a href="post.html">
                   {" "}
-                  <span>Dec</span> <i>08</i>{" "}
+                  <span>Amritsar</span>
                 </a>
               </div>
             </div>
@@ -293,7 +293,7 @@ const VegFood = () =>{
               <div className="date">
                 <a href="post.html">
                   {" "}
-                  <span>Dec</span> <i>08</i>{" "}
+                  <span>Amritsar</span>
                 </a>
               </div>
             </div>
@@ -334,6 +334,14 @@ const VegFood = () =>{
               </a>
             </li>
           </ul> */}
+          <div className="col-md-12">
+                                        <div className="butn-dark mt-15 mb-30">
+                                            {" "}
+                                            <a href="rooms2.html">
+                                                <span>View Non-Veg Food</span>
+                                            </a>{" "}
+                                        </div>
+                                    </div>
    
     </div>
   </section>

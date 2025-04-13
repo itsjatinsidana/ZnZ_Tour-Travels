@@ -19,6 +19,28 @@ const ViewPackage = () =>{
     <div className="row">
       <div className="col-md-12">
         <div className="owl-carousel owl-theme">
+
+           {/* Customize Plans */}
+           <div className="item">
+            <div className="position-re o-hidden">
+              <img src="img/rooms/customizeplan.jpg" alt="" style={{ height: "525px" }} />
+            </div>
+            <span className="category">
+              <a href="rooms2.html">Book</a>
+            </span>
+            <div className="con">
+           
+              <h5><a href="room-details.html">Customize Plans</a></h5>
+              <div className="line" />
+              <div className="row facilities">
+                <div className="col col-md-5 text-end">
+                  <div className="permalink">
+                    <a href="room-details.html">Details <i className="ti-arrow-right" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         
           {/* 1 Day Trip */}
           <div className="item">
@@ -86,27 +108,7 @@ const ViewPackage = () =>{
             </div>
           </div>
 
-          {/* Customize Plans */}
-          <div className="item">
-            <div className="position-re o-hidden">
-              <img src="img/rooms/customizeplan.jpg" alt="" style={{ height: "525px" }} />
-            </div>
-            <span className="category">
-              <a href="rooms2.html">Book</a>
-            </span>
-            <div className="con">
-           
-              <h5><a href="room-details.html">Customize Plans</a></h5>
-              <div className="line" />
-              <div className="row facilities">
-                <div className="col col-md-5 text-end">
-                  <div className="permalink">
-                    <a href="room-details.html">Details <i className="ti-arrow-right" /></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+         
 
         </div>
       </div>

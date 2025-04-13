@@ -15,7 +15,7 @@ const Navbar = () => {
                                textShadow:"2px 2px 5px #aa8453"
                             }} >ZnZ
                                 <br />
-                                Tour & Travels
+                                Travel & Stays
                             </span>
                         </a>
                         {/* <a class="logo" href="index.html"> <h2>THE CAPPA <span>Luxury Hotel</span></h2> </a> */}
