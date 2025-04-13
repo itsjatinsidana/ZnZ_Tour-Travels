@@ -413,7 +413,7 @@ const DayThreePackage = () => {
 
                             </div>
                             <div className="row">
-                                <div className="col-md-6">
+                                {/* <div className="col-md-6">
                                     <h6>Check-in</h6>
                                     <ul className="list-unstyled page-list mb-30">
                                         <li>
@@ -435,8 +435,8 @@ const DayThreePackage = () => {
                                             </div>
                                         </li>
                                     </ul>
-                                </div>
-                                <div className="col-md-6">
+                                </div> */}
+                                {/* <div className="col-md-6">
                                     <h6>Check-out</h6>
                                     <ul className="list-unstyled page-list mb-30">
                                         <li>
@@ -458,7 +458,7 @@ const DayThreePackage = () => {
                                             </div>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                                 {/* <div className="col-md-12">
                                         <h6>Special check-in instructions</h6>
                                         <p>
