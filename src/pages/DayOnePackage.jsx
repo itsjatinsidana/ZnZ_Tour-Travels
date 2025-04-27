@@ -35,14 +35,14 @@ const DayOnePackage = () => {
                 </header>
                 {/* Room Content */}
                 <section className="rooms-page section-padding" data-scroll-index={1}
-                style={{
-                    backgroundImage: "url('img/slider/background.jpg')",
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                    // filter: "blur(5px)",
-                  }}
-                  >
+                    style={{
+                        backgroundImage: "url('img/slider/background.jpg')",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        // filter: "blur(5px)",
+                    }}
+                >
                     <div className="container">
                         {/* project content */}
                         <div className="row">
@@ -58,47 +58,76 @@ const DayOnePackage = () => {
                                 <div className="section-title">Day 1 Trip</div>
                             </div>
                             <div className="col-md-8">
-                                <p className="mb-30"style={{  fontSize: "16px",
-                                                        fontWeight: "bold"}}>
-                                    9:00 AM — Golden Temple Darshan
+                                <p
+                                    className="mb-30"
+                                    style={{
+                                        fontSize: "16px",
+                                        fontWeight: "normal",
+                                        textAlign: "justify"
+                                    }}
+                                >
+                                    <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                        9:00 AM — Golden Temple Darshan
+                                    </span>
+                                    <br />
                                     Begin your day with a peaceful visit to the Golden Temple. Immerse yourself in the spiritual aura and admire the breathtaking architecture reflected in the holy Sarovar.
-                                    <br />
-                                    <br />
-                                    11:00 AM — Choose Your Experience:
-                                    <br />
+                                    <br /><br />
 
-                                    Option 1: Extended Visit to Jallianwala Bagh & Partition Museum <br />
+                                    <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                        11:00 AM — Choose Your Experience:
+                                    </span>
+                                    <br /><br />
 
-                                    Spend more time exploring the powerful history of Jallianwala Bagh, understanding the stories behind the memorial.<br />
-
-                                    Then, dive into an in-depth journey at the Partition Museum, where personal accounts and historical artifacts paint a vivid picture of India's Partition.<br />
+                                    <span style={{ fontWeight: "bold" }}>
+                                        Option 1: Extended Visit to Jallianwala Bagh & Partition Museum
+                                    </span>
+                                    <br />
+                                    Spend more time exploring the powerful history of Jallianwala Bagh, understanding the stories behind the memorial.
+                                    <br />
+                                    Then, dive into an in-depth journey at the Partition Museum, where personal accounts and historical artifacts paint a vivid picture of India's Partition.
                                     (This option gives you more time to thoroughly experience both sites.)
-                                    <br />
-                                    <br />
-                                    OR
-                                    <br />
-                                    <br />
-                                    Option 2: Heritage Walk with a Brief Jallianwala Bagh Visit
+                                    <br /><br />
+
+                                    <strong>OR</strong>
+                                    <br /><br />
+
+                                    <span style={{ fontWeight: "bold" }}>
+                                        Option 2: Heritage Walk with a Brief Jallianwala Bagh Visit
+                                    </span>
                                     <br />
                                     Start with a brief stop at Jallianwala Bagh to pay your respects and witness the key spots inside the memorial.
-
-                                    Then, continue on a captivating Heritage Walk through Amritsar’s narrow lanes and bustling bazaars. Discover hidden gems, centuries-old havelis, and experience the city's true cultural charm.
-                                    <br />  <br />
-
-                                    1:30 PM — Special Amritsari Kulcha Break (On Us!)
-                                    Time for a mouthwatering treat — enjoy piping hot, authentic Amritsari Kulchas with chole and lassi at one of the city's famous spots. This one's on us — your meal is covered!
                                     <br />
+                                    Then, continue on a captivating Heritage Walk through Amritsar’s narrow lanes and bustling bazaars. Discover hidden gems, centuries-old havelis, and experience the city's true cultural charm.
+                                    <br /><br />
 
+                                    <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                        1:30 PM — Special Amritsari Kulcha Break (On Us!)
+                                    </span>
+                                    <br />
+                                    Time for a mouthwatering treat — enjoy piping hot, authentic Amritsari Kulchas with chole and lassi at one of the city's famous spots. This one's on us — your meal is covered!
                                 </p>
-                                <p className="mb-30"style={{  fontSize: "16px",
-                                                        fontWeight: "bold"}}>
-                                    2:00 PM — Depart for Wagah Border
+
+                                <p className="mb-30" style={{
+                                    fontSize: "16px",
+                                    fontWeight: "normal",
+                                    textAlign: "justify"
+                                }}>
+                                      <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                      2:00 PM — Depart for Wagah Border
+                                    </span>
+                                    <br />
                                     Head towards the Wagah Border early to secure a good viewing spot for the electrifying Beating Retreat Ceremony.
                                     <br /><br />
+                                    <span style={{ fontWeight: "bold", fontSize: "18px" }}>
                                     4:00 PM — Wagah Border Ceremony
+                                    </span>
+                                    <br/>
                                     Witness the iconic India-Pakistan border ceremony filled with patriotic energy, cheering crowds, and an unforgettable atmosphere.
                                     <br /><br />
+                                    <span style={{ fontWeight: "bold", fontSize: "18px" }}>
                                     7:00 PM — Return to Stay
+                                    </span>
+                                    <br/>
                                     Head back to your luxurious ZnZ Travel & Stays accommodation for a relaxing evening.
                                     <br />
                                 </p>

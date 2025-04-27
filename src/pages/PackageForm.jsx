@@ -57,6 +57,7 @@ const PackageForm = () => {
             setFormData({ checkIn: "", checkOut: "", phoneNumber: "" })
 
             navigate("/viewpackage");
+            window.location.reload(); 
         } catch (error) {
             alert("Oops... Something went wrong!");
             console.error("EmailJS Error:", error);

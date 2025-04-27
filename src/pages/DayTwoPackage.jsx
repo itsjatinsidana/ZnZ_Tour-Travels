@@ -35,13 +35,13 @@ const DayTwoPackage = () => {
                 </header>
                 {/* Room Content */}
                 <section className="rooms-page section-padding" data-scroll-index={1}
-                style={{
-                    backgroundImage: "url('img/slider/background.jpg')",
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                    // filter: "blur(5px)",
-                  }}>
+                    style={{
+                        backgroundImage: "url('img/slider/background.jpg')",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        // filter: "blur(5px)",
+                    }}>
                     <div className="container">
                         {/* project content */}
                         <div className="row">
@@ -57,13 +57,22 @@ const DayTwoPackage = () => {
                                 <div className="section-title">Day 1 Trip</div>
                             </div>
                             <div className="col-md-8">
-                                <p className="mb-30"style={{  fontSize: "16px",
-                                                        fontWeight: "bold"}}>
-                                    9:00 AM — Golden Temple Darshan
+                                <p className="mb-30" style={{
+                                    fontSize: "16px",
+                                    fontWeight: "normal",
+                                    textAlign: "justify"
+                                }}>
+                                    <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                        9:00 AM — Golden Temple Darshan
+                                    </span>
+                                    <br />
                                     Begin your day with a peaceful visit to the Golden Temple. Immerse yourself in the spiritual aura and admire the breathtaking architecture reflected in the holy Sarovar.
                                     <br />
+                                    <br />
+                                    <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                        11:00 AM — Choose Your Experience:
+                                    </span>
 
-                                    11:00 AM — Choose Your Experience:
                                     <br />
                                     <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-around" }}>
                                         <div className="col-md-12">
@@ -78,7 +87,7 @@ const DayTwoPackage = () => {
                                             </div>
                                         </div>
 
-                                        
+
                                     </div>
                                     <div className="modal fade" id="exampleModal" tabIndex="-1">
                                         <div className="modal-dialog  modal-xl modal-dialog-scrollable">
@@ -93,51 +102,76 @@ const DayTwoPackage = () => {
                                                 {/* Modal Body */}
                                                 <div className="modal-body">
                                                     <div className="col-md-12">
-                                                        <p className="mb-30" style={{
-                                                            fontSize: "18px",
-                                                            fontWeight: "bold"
-                                                        }}>
-                                                            9:00 AM — Golden Temple Darshan
+                                                        <p
+                                                            className="mb-30"
+                                                            style={{
+                                                                fontSize: "16px",
+                                                                fontWeight: "normal",
+                                                                textAlign: "justify"
+                                                            }}
+                                                        >
+                                                            <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                9:00 AM — Golden Temple Darshan
+                                                            </span>
+                                                            <br />
                                                             Begin your day with a peaceful visit to the Golden Temple. Immerse yourself in the spiritual aura and admire the breathtaking architecture reflected in the holy Sarovar.
-                                                            <br />
-                                                            <br />
-                                                            11:00 AM — Choose Your Experience:
-                                                            <br />
+                                                            <br /><br />
 
-                                                            Option 1: Extended Visit to Jallianwala Bagh & Partition Museum <br />
+                                                            <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                11:00 AM — Choose Your Experience:
+                                                            </span>
+                                                            <br /><br />
 
-                                                            Spend more time exploring the powerful history of Jallianwala Bagh, understanding the stories behind the memorial.<br />
-
-                                                            Then, dive into an in-depth journey at the Partition Museum, where personal accounts and historical artifacts paint a vivid picture of India's Partition.<br />
+                                                            <span style={{ fontWeight: "bold" }}>
+                                                                Option 1: Extended Visit to Jallianwala Bagh & Partition Museum
+                                                            </span>
+                                                            <br />
+                                                            Spend more time exploring the powerful history of Jallianwala Bagh, understanding the stories behind the memorial.
+                                                            <br />
+                                                            Then, dive into an in-depth journey at the Partition Museum, where personal accounts and historical artifacts paint a vivid picture of India's Partition.
                                                             (This option gives you more time to thoroughly experience both sites.)
-                                                            <br />
-                                                            <br />
-                                                            OR
-                                                            <br />
-                                                            <br />
-                                                            Option 2: Heritage Walk with a Brief Jallianwala Bagh Visit
+                                                            <br /><br />
+
+                                                            <strong>OR</strong>
+                                                            <br /><br />
+
+                                                            <span style={{ fontWeight: "bold" }}>
+                                                                Option 2: Heritage Walk with a Brief Jallianwala Bagh Visit
+                                                            </span>
                                                             <br />
                                                             Start with a brief stop at Jallianwala Bagh to pay your respects and witness the key spots inside the memorial.
-
-                                                            Then, continue on a captivating Heritage Walk through Amritsar’s narrow lanes and bustling bazaars. Discover hidden gems, centuries-old havelis, and experience the city's true cultural charm.
-                                                            <br />  <br />
-
-                                                            1:30 PM — Special Amritsari Kulcha Break (On Us!)
-                                                            Time for a mouthwatering treat — enjoy piping hot, authentic Amritsari Kulchas with chole and lassi at one of the city's famous spots. This one's on us — your meal is covered!
                                                             <br />
+                                                            Then, continue on a captivating Heritage Walk through Amritsar’s narrow lanes and bustling bazaars. Discover hidden gems, centuries-old havelis, and experience the city's true cultural charm.
+                                                            <br /><br />
 
+                                                            <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                1:30 PM — Special Amritsari Kulcha Break (On Us!)
+                                                            </span>
+                                                            <br />
+                                                            Time for a mouthwatering treat — enjoy piping hot, authentic Amritsari Kulchas with chole and lassi at one of the city's famous spots. This one's on us — your meal is covered!
                                                         </p>
+
                                                         <p className="mb-30" style={{
-                                                            fontSize: "18px",
-                                                            fontWeight: "bold"
+                                                            fontSize: "16px",
+                                                            fontWeight: "normal",
+                                                            textAlign: "justify"
                                                         }}>
-                                                            2:00 PM — Depart for Wagah Border
+                                                            <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                2:00 PM — Depart for Wagah Border
+                                                            </span>
+                                                            <br />
                                                             Head towards the Wagah Border early to secure a good viewing spot for the electrifying Beating Retreat Ceremony.
                                                             <br /><br />
-                                                            4:00 PM — Wagah Border Ceremony
+                                                            <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                4:00 PM — Wagah Border Ceremony
+                                                            </span>
+                                                            <br />
                                                             Witness the iconic India-Pakistan border ceremony filled with patriotic energy, cheering crowds, and an unforgettable atmosphere.
                                                             <br /><br />
-                                                            7:00 PM — Return to Stay
+                                                            <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                7:00 PM — Return to Stay
+                                                            </span>
+                                                            <br />
                                                             Head back to your luxurious ZnZ Travel & Stays accommodation for a relaxing evening.
                                                             <br />
                                                         </p>
@@ -162,17 +196,25 @@ const DayTwoPackage = () => {
 
                                 <div className="section-title">Day 2 Trip</div>
                                 <div className="col-md-12">
-                                    <p className="mb-30" style={{  fontSize: "16px",
-                                                        fontWeight: "bold"}}>
-                                        Start Time: 9:30 AM
+                                    <p className="mb-30" style={{
+                                        fontSize: "16px",
+                                        fontWeight: "normal",
+                                        textAlign: "justify"
+                                    }}>
+                                        <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                            Start Time: 9:30 AM
+                                        </span>
+
                                         <br />
                                         9:30 AM — Visit Shaheeda Sahib
                                         <br />
                                         Begin your day with a visit to Shaheeda Sahib Gurudwara, a sacred place dedicated to Baba Deep Singh Ji, the legendary Sikh warrior who fought bravely for the sanctity of the Golden Temple.
 
                                         <br />
+                                        <br /> <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                            10:30 AM — Visit Durgiana Mandir
+                                        </span>
                                         <br />
-                                        10:30 AM — Visit Durgiana Mandir
                                         Head to the Durgiana Mandir, also known as the Silver Temple, resembling the Golden Temple's architecture. It’s a beautiful Hindu shrine dedicated to Goddess Durga, Lord Vishnu, and Hanuman.
 
                                         <br />
@@ -189,7 +231,7 @@ const DayTwoPackage = () => {
                                                 </div>
                                             </div>
 
-                                           
+
                                         </div>
                                         <div className="modal fade" id="exampleModal2" tabIndex="-1">
                                             <div className="modal-dialog  modal-xl modal-dialog-scrollable">
@@ -205,41 +247,63 @@ const DayTwoPackage = () => {
                                                     <div className="modal-body">
                                                         <div className="col-md-12">
                                                             <p className="mb-30" style={{
-                                                                fontSize: "18px",
-                                                                fontWeight: "bold"
+                                                                fontSize: "16px",
+                                                                fontWeight: "normal",
+                                                                textAlign: "justify"
                                                             }}>
-                                                                Start Time: 9:30 AM
-                                                                <br />
-                                                                9:30 AM — Visit Shaheeda Sahib
+                                                                <span style={{ fontSize: "18px", fontWeight: "bold" }}>
+                                                                    Start Time: 9:30 AM
+                                                                </span>
+                                                                <br /><br />
+
+                                                                <span style={{ fontWeight: "bold" }}>
+                                                                    9:30 AM — Visit Shaheeda Sahib
+                                                                </span>
                                                                 <br />
                                                                 Begin your day with a visit to Shaheeda Sahib Gurudwara, a sacred place dedicated to Baba Deep Singh Ji, the legendary Sikh warrior who fought bravely for the sanctity of the Golden Temple.
+                                                                <br /><br />
 
+                                                                <span style={{ fontWeight: "bold" }}>
+                                                                    10:30 AM — Visit Durgiana Mandir
+                                                                </span>
                                                                 <br />
-                                                                <br />
-                                                                10:30 AM — Visit Durgiana Mandir
                                                                 Head to the Durgiana Mandir, also known as the Silver Temple, resembling the Golden Temple's architecture. It’s a beautiful Hindu shrine dedicated to Goddess Durga, Lord Vishnu, and Hanuman.
                                                             </p>
+
                                                             <p className="mb-30" style={{
-                                                                fontSize: "18px",
-                                                                fontWeight: "bold"
+                                                                fontSize: "16px",
+                                                                fontWeight: "normal",
+                                                                textAlign: "justify"
                                                             }}>
-                                                                12:00 PM — Lunch Break (Meal of Your Choice)
+                                                                <span style={{ fontWeight: "bold" }}>
+                                                                    12:00 PM — Lunch Break (Meal of Your Choice)
+                                                                </span>
+                                                                <br />
                                                                 Enjoy a relaxing lunch at a restaurant of your preference. We’ll recommend some great local spots — whether you’re in the mood for classic Punjabi cuisine or something light and refreshing.
+                                                                <br /><br />
+
+                                                                <span style={{ fontWeight: "bold" }}>
+                                                                    1:30 PM — Visit Ram Tirath Temple
+                                                                </span>
                                                                 <br />
-                                                                <br />
-                                                                1:30 PM — Visit Ram Tirath Temple
                                                                 Explore the historic Ram Tirath Temple, believed to be the birthplace of Lav and Kush (sons of Lord Ram). It holds great significance from the Ramayana era, with a sacred pond and ancient structures.
+                                                                <br /><br />
+
+                                                                <span style={{ fontWeight: "bold" }}>
+                                                                    3:00 PM — Sadda Pind (Tickets on Us!)
+                                                                </span>
                                                                 <br />
-                                                                <br />
-                                                                3:00 PM — Sadda Pind (Tickets on Us!)
                                                                 Step into a vibrant Punjabi village experience at Sadda Pind — a live cultural village showcasing traditional Punjabi life. From folk dances, pottery, and handcrafts to tractor rides and live music, it’s a perfect way to soak in Punjab’s rich heritage.
                                                                 ✅ Tickets are covered by us, including the meal inside Sadda Pind!
+                                                                <br /><br />
+
+                                                                <span style={{ fontWeight: "bold" }}>
+                                                                    6:00 PM — Return to Stay
+                                                                </span>
                                                                 <br />
-                                                                <br />
-                                                                6:00 PM — Return to Stay
-                                                                Head back to your cozy ZnZ Travel & Stays accommodation for a restful evening.
-                                                                <br />
+                                                                Head back to your cozy ZnZ Travel & Stays accommodation for a restful evening.
                                                             </p>
+
                                                         </div>
                                                     </div>
 
