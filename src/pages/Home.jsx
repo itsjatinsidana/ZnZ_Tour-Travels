@@ -242,7 +242,7 @@ const Home = () => {
 
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <img src="img/news/jallianwalanbagh.jpg" alt="" style={{ height: "500px" }} />
+                    <img src="img/news/jallian.jpg" alt="" style={{ height: "500px" }} />
                     <div className="date">
                       <a href="post.html">
                       <span>Amritsar</span>
@@ -590,7 +590,7 @@ const Home = () => {
                 <div className="col-md-4">
                   <div className="butn-dark mt-15 mb-30">
                     {" "}
-                    <a href="rooms2.html">
+                    <a href="nonveg">
                       <span>View Non-veg Food</span>
                     </a>{" "}
                   </div>

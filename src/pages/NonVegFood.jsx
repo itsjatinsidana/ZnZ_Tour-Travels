@@ -1,11 +1,11 @@
 import Navbar from "./Navbar"
 
-const VegFood = () =>{
+const NonVegFood = () =>{
     return(
         <>
  <>
  <Navbar/>
- <div
+  <div
     className="banner-header section-padding valign bg-img bg-fixed"
     data-overlay-dark={4}
     data-background="img/slider/banner2.png" style={{
@@ -19,9 +19,8 @@ const VegFood = () =>{
       }}
   >
     <div className="container">
-      
       <div className="row">
-    
+      
       </div>
     </div>
   </div>
@@ -30,14 +29,19 @@ const VegFood = () =>{
     <div className="container">
     <div className="col-md-12 text-left ">
         
-        <h1 style={{color:"white"}}>Veg Special Food</h1>
+        <h1 style={{color:"white"}}>NonVeg Special Food</h1>
       </div>
       <div className="row">
+    
         <div className="col-md-4 mb-30">
+      
+        
+      
+     
           <div className="item">
             <div className="position-re o-hidden">
               {" "}
-              <img src="img/news/1.jpg" alt=""   style={{height:"430px"}}/>
+              <img src="img/news/mutton.jpg" alt=""   style={{height:"430px"}}/>
               <div className="date">
                 <a href="post.html">
                   {" "}
@@ -51,7 +55,7 @@ const VegFood = () =>{
                 <a href="news.html">Special</a>
               </span>
               <h5>
-                <a href="post.html">Maki di roti/Sarson ka saag</a>
+                <a href="post.html">Mutton Tikka</a>
               </h5>
             </div>
           </div>
@@ -60,7 +64,7 @@ const VegFood = () =>{
           <div className="item">
             <div className="position-re o-hidden">
               {" "}
-              <img src="img/news/2.jpg" alt="" style={{height:"430px"}}/>
+              <img src="img/news/braincurry.jpg" alt="" style={{height:"430px"}}/>
               <div className="date">
                 <a href="post.html">
                   {" "}
@@ -74,7 +78,7 @@ const VegFood = () =>{
                 <a href="news.html">Special</a>
               </span>
               <h5>
-                <a href="post.html">Khulche Chole</a>
+                <a href="post.html">Brain Curry</a>
               </h5>
             </div>
           </div>
@@ -83,7 +87,7 @@ const VegFood = () =>{
           <div className="item">
             <div className="position-re o-hidden">
               {" "}
-              <img src="img/news/13.jpg" alt="" style={{height:"430px"}}/>
+              <img src="img/news/chickentikka.jpg" alt="" style={{height:"430px"}}/>
               <div className="date">
                 <a href="post.html">
                   {" "}
@@ -97,7 +101,7 @@ const VegFood = () =>{
                 <a href="news.html">Special</a>
               </span>
               <h5>
-                <a href="post.html">Lassi</a>
+                <a href="post.html">Chicken Tikka</a>
               </h5>
             </div>
           </div>
@@ -106,7 +110,7 @@ const VegFood = () =>{
           <div className="item">
             <div className="position-re o-hidden">
               {" "}
-              <img src="img/news/14.jpg" alt=""style={{height:"430px"}} />
+              <img src="img/news/afish.jpg" alt=""style={{height:"430px"}} />
               <div className="date">
                 <a href="post.html">
                   {" "}
@@ -119,7 +123,7 @@ const VegFood = () =>{
                 <a href="news.html">Special</a>
               </span>
               <h5>
-                <a href="post.html">Kanha ki puri</a>
+                <a href="post.html">Amritsari Fish</a>
               </h5>
             </div>
           </div>
@@ -128,30 +132,7 @@ const VegFood = () =>{
           <div className="item">
             <div className="position-re o-hidden">
               {" "}
-              <img src="img/news/6.jpg" alt="" style={{height:"430px"}}/>
-              <div className="date">
-                <a href="post.html">
-                  {" "}
-                  <span>Amritsar</span>
-                </a>
-              </div>
-            </div>
-            <div className="con">
-              {" "}
-              <span className="category">
-                <a href="news.html">Design</a>
-              </span>
-              <h5>
-                <a href="post.html">Paneer Butter Masala</a>
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4 mb-30">
-          <div className="item">
-            <div className="position-re o-hidden">
-              {" "}
-              <img src="img/news/5.jpg" alt="" style={{height:"430px"}}/>
+              <img src="img/news/kemannan.jpg" alt="" style={{height:"430px"}}/>
               <div className="date">
                 <a href="post.html">
                   {" "}
@@ -165,7 +146,30 @@ const VegFood = () =>{
                 <a href="news.html">Special</a>
               </span>
               <h5>
-                <a href="post.html">Faluda</a>
+                <a href="post.html">Keema Naan</a>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 mb-30">
+          <div className="item">
+            <div className="position-re o-hidden">
+              {" "}
+              <img src="img/news/creamchicken.jpg" alt="" style={{height:"430px"}}/>
+              <div className="date">
+                <a href="post.html">
+                  {" "}
+                  <span>Amritsar</span>
+                </a>
+              </div>
+            </div>
+            <div className="con">
+              {" "}
+              <span className="category">
+                <a href="news.html">Special</a>
+              </span>
+              <h5>
+                <a href="post.html">Chawala Cream Chicken</a>
               </h5>
             </div>
           </div>
@@ -175,7 +179,7 @@ const VegFood = () =>{
           <div className="item">
             <div className="position-re o-hidden">
               {" "}
-              <img src="img/news/7.jpg" alt="" style={{height:"430px"}}/>
+              <img src="img/news/butterchicken.jpg" alt="" style={{height:"430px"}}/>
               <div className="date">
                 <a href="post.html">
                   {" "}
@@ -189,7 +193,7 @@ const VegFood = () =>{
                 <a href="news.html">Special</a>
               </span>
               <h5>
-                <a href="post.html">Dal Makhni</a>
+                <a href="post.html">Baba Butter Chicken</a>
               </h5>
             </div>
           </div>
@@ -198,7 +202,7 @@ const VegFood = () =>{
           <div className="item">
             <div className="position-re o-hidden">
               {" "}
-              <img src="img/news/8.jpg" alt="" style={{height:"430px"}}/>
+              <img src="img/news/tandaorimutton.jpg" alt="" style={{height:"430px"}}/>
               <div className="date">
                 <a href="post.html">
                   {" "}
@@ -212,12 +216,12 @@ const VegFood = () =>{
                 <a href="news.html">Special</a>
               </span>
               <h5>
-                <a href="post.html">Prantha with Butter</a>
+                <a href="post.html">Bittu Tandoori Mutton</a>
               </h5>
             </div>
           </div>
         </div>
-        <div className="col-md-4 mb-30">
+        {/* <div className="col-md-4 mb-30">
           <div className="item">
             <div className="position-re o-hidden">
               {" "}
@@ -239,8 +243,8 @@ const VegFood = () =>{
               </h5>
             </div>
           </div>
-        </div>
-        <div className="col-md-4 mb-30">
+        </div> */}
+        {/* <div className="col-md-4 mb-30">
           <div className="item">
             <div className="position-re o-hidden">
               {" "}
@@ -308,7 +312,7 @@ const VegFood = () =>{
               </h5>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
      
           {/* Pagination */}
@@ -338,8 +342,8 @@ const VegFood = () =>{
           <div className="col-md-12">
                                         <div className="butn-dark mt-15 mb-30">
                                             {" "}
-                                            <a href="nonveg">
-                                                <span>View Non-Veg Food</span>
+                                            <a href="vegfood">
+                                                <span>View Veg Food</span>
                                             </a>{" "}
                                         </div>
                                     </div>
@@ -352,4 +356,4 @@ const VegFood = () =>{
         </>
     )
 }
-export default VegFood
+export default NonVegFood

@@ -14,67 +14,84 @@ const About = () =>{
     <div className="container">
       <div className="row">
         <div className="col-md-12 caption mt-90">
-          <h5>Luxury Hotel</h5>
+        
           <h1>About Us</h1>
         </div>
       </div>
     </div>
   </div>
   {/* About */}
-  <section className="about section-padding">
-    <div className="container">
-      <div className="row">
-        <div
-          className="col-md-6 mb-30 animate-box"
-          data-animate-effect="fadeInUp"
-        >
-          <span>
-            <i className="star-rating" />
-            <i className="star-rating" />
-            <i className="star-rating" />
-            <i className="star-rating" />
-            <i className="star-rating" />
-          </span>
-          <div className="section-subtitle">The Cappa Luxury Hotel</div>
-          <div className="section-title">Enjoy a Luxury Experience</div>
-          <p>
-            Welcome to the best five-star deluxe hotel in New York. Hotel
-            elementum sesue the aucan vestibulum aliquam justo in sapien rutrum
-            volutpat. Donec in quis the pellentesque velit. Donec id velit ac
-            arcu posuere blane.
-          </p>
-          <p>
-            Hotel ut nisl quam nestibulum ac quam nec odio elementum sceisue the
-            aucan ligula. Orci varius natoque penatibus et magnis dis parturient
-            monte nascete ridiculus mus nellentesque habitant morbine.
-          </p>
-          {/* reservation */}
-          <div className="reservations">
-            <div className="icon">
-              <span className="flaticon-call" />
+  <section className="about section-padding" style={{
+        backgroundImage: "url('img/slider/background.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        // filter: "blur(5px)",
+      }}>
+        <div className="container">
+          <div className="row">
+            <div
+              className="col-md-6 mb-30 animate-box"
+              data-animate-effect="fadeInUp"
+            >
+              <span>
+                <i className="star-rating" />
+                <i className="star-rating" />
+                <i className="star-rating" />
+                <i className="star-rating" />
+                <i className="star-rating" />
+              </span>
+              <div className="section-title">ZnZ Travel & Stays</div>
+              <div className="" style={{fontSize:"35px" }}>Discover the Culture, Heritage, and <br/><br/>
+                Treasures of Amritsar with us.</div>
+                <br/>
+              <p>
+                At ZNZ Travel and Stays, we are a
+                group of passionate Amritsaris who
+                want the world to experience our city
+                the way we have—authentically,
+                wholeheartedly, and like a true local.
+                Having lived here since childhood, we
+                know the real essence of Amritsar—its
+                vibrant streets, soulful spirituality, rich
+                history, and mouthwatering flavors.
+
+              </p>
+              <p>
+                Through our curated and flexible plans
+                and experiences, we invite you to see
+                Amritsar through our eyes, beyond the
+                usual tourist spots.
+                We want every visitor to feel the same
+                joy, warmth, and connection that we’ve
+                cherished all our lives.
+              </p>
+              {/* call */}
+              <div className="reservations">
+                <div className="icon">
+                  <span className="flaticon-call" />
+                </div>
+                <div className="text">
+                  <p>Reservation</p> <a href="tel:+91-8054540854">+91-80-54-54-08-54</a>
+                </div>
+              </div>
             </div>
-            <div className="text">
-              <p>Reservation</p> <a href="tel:855-100-4444">855 100 4444</a>
+            <div
+              className="col col-md-3 animate-box"
+              data-animate-effect="fadeInUp"
+            >
+              <img src="img/rooms/aboutimg1.jpg" alt="" className="mt-90 mb-30" />
+            </div>
+            <div
+              className="col col-md-3 animate-box"
+              data-animate-effect="fadeInUp"
+            >
+              <img src="img/rooms/aboutimg2.jpg" alt="" />
             </div>
           </div>
         </div>
-        <div
-          className="col col-md-3 animate-box"
-          data-animate-effect="fadeInUp"
-        >
-          {" "}
-          <img src="img/rooms/8.jpg" alt="" className="mt-90 mb-30" />{" "}
-        </div>
-        <div
-          className="col col-md-3 animate-box"
-          data-animate-effect="fadeInUp"
-        >
-          {" "}
-          <img src="img/rooms/2.jpg" alt="" />{" "}
-        </div>
-      </div>
-    </div>
-  </section>
+      </section>
+
   {/* Pricing */}
   <section className="pricing section-padding bg-blck">
     <div className="container">

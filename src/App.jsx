@@ -12,6 +12,7 @@ import DayThreePackage from './pages/DayThreePackage';
 import VegFood from './pages/VegFood';
 
 import GuestPreferenceForm from './pages/GuestPreferenceForm';
+import NonVegFood from './pages/NonVegFood';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Route path="/daythree" element={<DayThreePackage/>} />
       <Route path="/vegfood" element={<VegFood/>} />
       <Route path="/customizeplan" element={<GuestPreferenceForm/>} />
+      <Route path="/nonveg" element={<NonVegFood/>} />
       
     </Routes>
   );
