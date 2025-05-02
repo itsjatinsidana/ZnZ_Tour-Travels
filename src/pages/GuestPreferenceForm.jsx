@@ -226,7 +226,7 @@ const GuestPreferenceForm = () => {
           <label style={labelStyle}>Would you like to do a Heritage Walk?</label>
           <select style={inputStyle}>
             <option>No</option>
-            <option>A local emissary</option>
+            <option>A local guide</option>
             <option>A special guide</option>
           </select>
         </div>

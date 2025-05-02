@@ -35,7 +35,7 @@ const Home = () => {
                     <div className="butn-light mt-30 mb-30">
                       {" "}
                       <a href="#" data-scroll-nav={1}>
-                        <span>Rooms &amp; Suites</span>
+                      
                       </a>{" "}
                     </div>
                   </div>
@@ -386,7 +386,7 @@ const Home = () => {
                 fontSize: "16px",
                 fontWeight: "bold"
               }}>
-                Amritsar, the culinary heart of Punjab, offers a delightful mix of vegetarian and non-vegetarian dishes that cater to every taste. From the iconic Amritsari Kulcha and Langar at the Golden Temple for vegetarians to the mouth-watering Tandoori Chicken and Fish Amritsari for non-veg lovers, the city is a paradise for foodies. Whether you crave rich, buttery flavors or spicy tandoori delights, Amritsar’s street food and dhabas serve up authentic Punjabi flavors that you simply can’t miss!
+                Amritsar, the culinary heart of Punjab, offers a delightful mix of vegetarian and non-vegetarian dishes that cater to every taste. From the iconic Amritsari Kulcha for vegetarians to the mouth-watering Tandoori Chicken and Fish Amritsari for non-veg lovers, the city is a paradise for foodies. Whether you crave rich, buttery flavors or spicy tandoori delights, Amritsar’s street food and dhabas serve up authentic Punjabi flavors that you simply can’t miss!
               </p>
             </div>
             <div className="col-md-12">
@@ -427,7 +427,7 @@ const Home = () => {
                     Amritsar is a paradise for vegetarians, offering some of the most flavorful and iconic Punjabi dishes. The legendary Amritsari Kulcha, stuffed with spiced potatoes or paneer, served with tangy chole and pickles, is a must-try. No visit is complete without experiencing the Langar at the Golden Temple, where thousands are served a wholesome, simple meal daily. Traditional dishes like Sarson da Saag with Makki di Roti, paired with white butter and jaggery, showcase the rich flavors of Punjab. Don’t forget to try Lassi, a thick and creamy yogurt drink, perfect to cool down after a spicy meal!
                   </p>
                   <p>
-                    <span className="flaticon-clock" /> Daily: 7.00 am to 9.00 pm{" "}
+                    <span className="flaticon-clock" /> Daily: From 7 AM TO 11 PM{" "}
 
                   </p>
 
@@ -459,7 +459,7 @@ const Home = () => {
                     For non-vegetarian food lovers, Amritsar is nothing short of a culinary haven. The city is famous for its Tandoori Chicken, marinated in yogurt and spices, then roasted to perfection in a traditional clay oven. Another local favorite is Fish Amritsari, crispy, deep-fried fish fillets infused with tangy flavors. If you love rich and creamy dishes, Butter Chicken and Mutton Curry served with naan or rice will leave you craving for more. The famous dhabas and street food joints in Amritsar offer an unmatched taste of Punjab’s bold and hearty non-veg delights.
                   </p>
                   <p>
-                    <span className="flaticon-clock" /> Daily: 6.00 am to 9.00 pm{" "}
+                    <span className="flaticon-clock" /> Daily: From 7 AM TO 11 PM{" "}
                   </p>
                 </div>
                 <div className="col-md-4">

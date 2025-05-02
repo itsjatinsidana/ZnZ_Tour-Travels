@@ -95,14 +95,11 @@ const PackageForm = () => {
                                     <div className="text">
                                         <p className="color-1">Reservation</p>{" "}
                                         <a className="color-1" href="tel: +91-8054540854">
-                                            +91-8054540854
+                                            +91-80-54-54-08-54
                                         </a>
                                     </div>
                                 </div>
-                                <p>
-                                    <i className="ti-check" />
-                                    <small>Call us, it's toll-free.</small>
-                                </p>
+                               
                             </div>
                             {/* Booking From */}
                             <div className="col-md-5 offset-md-2">
