@@ -30,13 +30,11 @@ const Home = () => {
                       <i className="star-rating" />
                       <i className="star-rating" />
                     </span>
-                    <h4>Luxury Hotel &amp; Best Resort</h4>
+              
                     <h1>Enjoy a Luxury Experience</h1>
                     <div className="butn-light mt-30 mb-30">
                       {" "}
-                      <a href="#" data-scroll-nav={1}>
-                      
-                      </a>{" "}
+                    {" "}
                     </div>
                   </div>
                 </div>
@@ -59,13 +57,11 @@ const Home = () => {
                       <i className="star-rating" />
                       <i className="star-rating" />
                     </span>
-                    <h4>Unique Place to Relax &amp; Enjoy</h4>
+                 
                     <h1>The Perfect Base For You</h1>
                     <div className="butn-light mt-30 mb-30">
                       {" "}
-                      <a href="#" data-scroll-nav={1}>
-                        <span>Rooms &amp; Suites</span>
-                      </a>{" "}
+                     {" "}
                     </div>
                   </div>
                 </div>
@@ -88,13 +84,13 @@ const Home = () => {
                       <i className="star-rating" />
                       <i className="star-rating" />
                     </span>
-                    <h4>The Ultimate Luxury Experience</h4>
+                 
                     <h1>Enjoy The Best Moments of Life</h1>
                     <div className="butn-light mt-30 mb-30">
                       {" "}
-                      <a href="#" data-scroll-nav={1}>
-                        <span>Rooms &amp; Suites</span>
-                      </a>{" "}
+                     
+                      
+                    {" "}
                     </div>
                   </div>
                 </div>
@@ -108,9 +104,9 @@ const Home = () => {
             <div className="icon d-flex justify-content-center align-items-center">
               <i className="flaticon-call" />
             </div>
-            <div className="call" style={{backgroundColor:"#D9EAFD"}}>
-              <span> +91-80-54-54-08-54</span> <br />
-              Reservation
+            <div className="call" style={{backgroundColor:"#393E46"}}>
+              <span style={{color:"white"}}> +91-80-54-54-08-54</span> <br />
+               &nbsp;Reservation
             </div>
           </a>
         </div>
@@ -137,8 +133,9 @@ const Home = () => {
                 <i className="star-rating" />
               </span>
               <div className="section-title">ZnZ Travel & Stays</div>
-              <div className="section-title">Discover the Culture, Heritage, and
+              <div className="" style={{fontSize:"35px" }}>Discover the Culture, Heritage, and <br/><br/>
                 Treasures of Amritsar with us.</div>
+                <br/>
               <p>
                 At ZNZ Travel and Stays, we are a
                 group of passionate Amritsaris who
@@ -322,7 +319,7 @@ const Home = () => {
                 {/* New Card 1 */}
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <img src="img/news/sadapind.jpg" alt="" style={{ height: "500px" }} />
+                    <img src="img/news/sadapindorg.jpeg" alt="" style={{ height: "500px" }} />
                     <div className="date">
                       <a href="post.html">
                       <span>Amritsar</span>
@@ -335,6 +332,134 @@ const Home = () => {
                     </span>
                     <h5>
                       <a href="post.html">Sada Pind</a>
+                    </h5>
+                  </div>
+                </div>
+
+              
+            
+
+              </div>
+            </div>
+          </div>
+
+{/* attraction section2 */}
+
+          <div className="row">
+            <div className="col-md-12">
+              <div className="owl-carousel owl-theme">
+                {/* Existing Cards */}
+                <div className="item">
+                  <div className="position-re o-hidden">
+                    <img src="img/news/gobindgarh.jpg" alt="" style={{ height: "500px" }} />
+                    <div className="date">
+                      <a href="post.html">
+                        <span>Amritsar</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="con">
+                    <span className="category">
+                      <a href="news.html">Amritsar</a>
+                    </span>
+                    <h5>
+                      <a href="post.html">GobindGarh Fort</a>
+                    </h5>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <div className="position-re o-hidden">
+                    <img src="img/news/heritage.jpg" alt="" style={{ height: "500px" }} />
+                    <div className="date">
+                      <a href="post.html">
+                      <span>Amritsar</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="con">
+                    <span className="category">
+                      <a href="news.html">Amritsar</a>
+                    </span>
+                    <h5>
+                      <a href="post.html">Heritage Street</a>
+                    </h5>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <div className="position-re o-hidden">
+                    <img src="img/news/warmemorial.jpg" alt="" style={{ height: "500px" }} />
+                    <div className="date">
+                      <a href="post.html">
+                      <span>Amritsar</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="con">
+                    <span className="category">
+                      <a href="news.html">Amritsar</a>
+                    </span>
+                    <h5>
+                      <a href="post.html">War Memorial</a>
+                    </h5>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <div className="position-re o-hidden">
+                    <img src="img/news/saheedansahib.jpg" alt="" style={{ height: "500px" }} />
+                    <div className="date">
+                      <a href="post.html">
+                      <span>Amritsar</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="con">
+                    <span className="category">
+                      <a href="news.html">Amritsar</a>
+                    </span>
+                    <h5>
+                      <a href="post.html">Shaheedan Sahib</a>
+                    </h5>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <div className="position-re o-hidden">
+                    <img src="img/news/foodtour.jpg" alt="" style={{ height: "500px" }} />
+                    <div className="date">
+                      <a href="post.html">
+                      <span>Amritsar</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="con">
+                    <span className="category">
+                      <a href="news.html">Amritsar</a>
+                    </span>
+                    <h5>
+                      <a href="post.html">Food Tour</a>
+                    </h5>
+                  </div>
+                </div>
+
+                {/* New Card 1 */}
+                <div className="item">
+                  <div className="position-re o-hidden">
+                    <img src="img/news/sadapind.jpg" alt="" style={{ height: "500px" }} />
+                    <div className="date">
+                      <a href="post.html">
+                      <span>Amritsar</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="con">
+                    <span className="category">
+                      <a href="news.html">Amritsar</a>
+                    </span>
+                    <h5>
+                      <a href="post.html">Authentic Village visit</a>
                     </h5>
                   </div>
                 </div>
