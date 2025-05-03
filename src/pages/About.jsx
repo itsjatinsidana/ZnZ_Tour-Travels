@@ -1,515 +1,184 @@
 import Navbar from "./Navbar"
 
-const About = () =>{
-    return(
-        <>
-        <Navbar/>
+const About = () => {
+  return (
+    <>
+      <Navbar />
 
-        <>
-  <div
-    className="banner-header section-padding valign bg-img bg-fixed"
-    data-overlay-dark={4}
-    data-background="img/slider/1.jpg"
-  >
-    <div className="container">
-      <div className="row">
-        <div className="col-md-12 caption mt-90">
-        
-          <h1>About Us</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* About */}
-  <section className="about section-padding" style={{
-        backgroundImage: "url('img/slider/background.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        // filter: "blur(5px)",
-      }}>
-        <div className="container">
-          <div className="row">
-            <div
-              className="col-md-6 mb-30 animate-box"
-              data-animate-effect="fadeInUp"
-            >
-              <span>
-                <i className="star-rating" />
-                <i className="star-rating" />
-                <i className="star-rating" />
-                <i className="star-rating" />
-                <i className="star-rating" />
-              </span>
-              <div className="section-title">ZnZ Travel & Stays</div>
-              <div className="" style={{fontSize:"35px" }}>Discover the Culture, Heritage, and <br/><br/>
-                Treasures of Amritsar with us.</div>
-                <br/>
-              <p>
-                At ZNZ Travel and Stays, we are a
-                group of passionate Amritsaris who
-                want the world to experience our city
-                the way we have—authentically,
-                wholeheartedly, and like a true local.
-                Having lived here since childhood, we
-                know the real essence of Amritsar—its
-                vibrant streets, soulful spirituality, rich
-                history, and mouthwatering flavors.
+      <>
+        <div
+          className="banner-header section-padding valign bg-img bg-fixed"
+          data-overlay-dark={4}
+          data-background="img/slider/aboutus.png"
+          style={{
+            backgroundAttachment: "fixed",
+            
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            minHeight: "450px", // match image height
+           
+          
+          }}
+        >
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12 caption mt-90">
 
-              </p>
-              <p>
-                Through our curated and flexible plans
-                and experiences, we invite you to see
-                Amritsar through our eyes, beyond the
-                usual tourist spots.
-                We want every visitor to feel the same
-                joy, warmth, and connection that we’ve
-                cherished all our lives.
-              </p>
-              {/* call */}
-              <div className="reservations">
-                <div className="icon">
-                  <span className="flaticon-call" />
-                </div>
-                <div className="text">
-                  <p>Reservation</p> <a href="tel:+91-8054540854">+91-80-54-54-08-54</a>
-                </div>
+                <h1>About Us</h1>
               </div>
-            </div>
-            <div
-              className="col col-md-3 animate-box"
-              data-animate-effect="fadeInUp"
-            >
-              <img src="img/rooms/aboutimg1.jpg" alt="" className="mt-90 mb-30" />
-            </div>
-            <div
-              className="col col-md-3 animate-box"
-              data-animate-effect="fadeInUp"
-            >
-              <img src="img/rooms/aboutimg2.jpg" alt="" />
             </div>
           </div>
         </div>
-      </section>
+        {/* About */}
+        <section className="about section-padding" style={{
+          backgroundImage: "url('img/slider/background.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          // filter: "blur(5px)",
+        }}>
+          <div className="container">
+            <div className="row">
+              <div
+                className="col-md-6 mb-30 animate-box"
+                data-animate-effect="fadeInUp"
+              >
+                <span>
+                  <i className="star-rating" />
+                  <i className="star-rating" />
+                  <i className="star-rating" />
+                  <i className="star-rating" />
+                  <i className="star-rating" />
+                </span>
+                <div className="section-title">ZnZ Travel & Stays</div>
+                <div className="" style={{ fontSize: "35px" }}>Discover the Culture, Heritage, and <br /><br />
+                  Treasures of Amritsar with us.</div>
+                <br />
+                <p>
+                  At ZNZ Travel and Stays, we are a
+                  group of passionate Amritsaris who
+                  want the world to experience our city
+                  the way we have—authentically,
+                  wholeheartedly, and like a true local.
+                  Having lived here since childhood, we
+                  know the real essence of Amritsar—its
+                  vibrant streets, soulful spirituality, rich
+                  history, and mouthwatering flavors.
 
-  {/* Pricing */}
-  <section className="pricing section-padding bg-blck">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-4">
-          <div className="section-subtitle">
-            <span>Best Prices</span>
-          </div>
-          <div className="section-title">
-            <span>Extra Services</span>
-          </div>
-          <p className="color-2">
-            The best prices for your relaxing vacation. The utanislen quam
-            nestibulum ac quame odion elementum sceisue the aucan.
-          </p>
-          <p className="color-2">
-            Orci varius natoque penatibus et magnis disney parturient monte
-            nascete ridiculus mus nellen etesque habitant morbine.
-          </p>
-          <div className="reservations mb-30">
-            <div className="icon">
-              <span className="flaticon-call" />
-            </div>
-            <div className="text">
-              <p className="color-2">For information</p>{" "}
-              <a href="tel:855-100-4444">855 100 4444</a>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-8">
-          <div className="owl-carousel owl-theme">
-            <div className="pricing-card">
-              <img src="img/pricing/1.jpg" alt="" />
-              <div className="desc">
-                <div className="name">Room cleaning</div>
-                <div className="amount">
-                  $50<span>/ month</span>
-                </div>
-                <ul className="list-unstyled list">
-                  <li>
-                    <i className="ti-check" /> Hotel ut nisan the duru
-                  </li>
-                  <li>
-                    <i className="ti-check" /> Orci miss natoque vasa ince
-                  </li>
-                  <li>
-                    <i className="ti-close unavailable" />
-                    Clean sorem ipsum morbin
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="pricing-card">
-              <img src="img/pricing/2.jpg" alt="" />
-              <div className="desc">
-                <div className="name">Drinks included</div>
-                <div className="amount">
-                  $30<span>/ daily</span>
-                </div>
-                <ul className="list-unstyled list">
-                  <li>
-                    <i className="ti-check" /> Hotel ut nisan the duru
-                  </li>
-                  <li>
-                    <i className="ti-check" /> Orci miss natoque vasa ince
-                  </li>
-                  <li>
-                    <i className="ti-close unavailable" />
-                    Clean sorem ipsum morbin
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="pricing-card">
-              <img src="img/pricing/3.jpg" alt="" />
-              <div className="desc">
-                <div className="name">Room Breakfast</div>
-                <div className="amount">
-                  $30<span>/ daily</span>
-                </div>
-                <ul className="list-unstyled list">
-                  <li>
-                    <i className="ti-check" /> Hotel ut nisan the duru
-                  </li>
-                  <li>
-                    <i className="ti-check" /> Orci miss natoque vasa ince
-                  </li>
-                  <li>
-                    <i className="ti-close unavailable" />
-                    Clean sorem ipsum morbin
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="pricing-card">
-              <img src="img/pricing/4.jpg" alt="" />
-              <div className="desc">
-                <div className="name">Safe &amp; Secure</div>
-                <div className="amount">
-                  $15<span>/ daily</span>
-                </div>
-                <ul className="list-unstyled list">
-                  <li>
-                    <i className="ti-check" /> Hotel ut nisan the duru
-                  </li>
-                  <li>
-                    <i className="ti-check" /> Orci miss natoque vasa ince
-                  </li>
-                  <li>
-                    <i className="ti-close unavailable" />
-                    Clean sorem ipsum morbin
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  {/* Facilties */}
-  <section className="facilties section-padding">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-12">
-          <div className="section-subtitle">Our Services</div>
-          <div className="section-title">Hotel Facilities</div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-md-4">
-          <div
-            className="single-facility animate-box"
-            data-animate-effect="fadeInUp"
-          >
-            <span className="flaticon-world" />
-            <h5>Pick Up &amp; Drop</h5>
-            <p>
-              We’ll pick up from airport while you comfy on your ride, mus
-              nellentesque habitant.
-            </p>
-            <div className="facility-shape">
-              {" "}
-              <span className="flaticon-world" />{" "}
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div
-            className="single-facility animate-box"
-            data-animate-effect="fadeInUp"
-          >
-            <span className="flaticon-car" />
-            <h5>Parking Space</h5>
-            <p>
-              Fusce tincidunt nis ace park norttito sit amet space, mus
-              nellentesque habitant.
-            </p>
-            <div className="facility-shape">
-              {" "}
-              <span className="flaticon-car" />{" "}
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div
-            className="single-facility animate-box"
-            data-animate-effect="fadeInUp"
-          >
-            <span className="flaticon-bed" />
-            <h5>Room Service</h5>
-            <p>
-              Room tincidunt nis ace park norttito sit amet space, mus
-              nellentesque habitant.
-            </p>
-            <div className="facility-shape">
-              {" "}
-              <span className="flaticon-bed" />{" "}
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div
-            className="single-facility animate-box"
-            data-animate-effect="fadeInUp"
-          >
-            <span className="flaticon-swimming" />
-            <h5>Swimming Pool</h5>
-            <p>
-              Swimming pool tincidunt nise ace park norttito sit space, mus
-              nellentesque habitant.
-            </p>
-            <div className="facility-shape">
-              {" "}
-              <span className="flaticon-swimming" />{" "}
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div
-            className="single-facility animate-box"
-            data-animate-effect="fadeInUp"
-          >
-            <span className="flaticon-wifi" />
-            <h5>Fibre Internet</h5>
-            <p>
-              Wifi tincidunt nis ace park norttito sit amet space, mus
-              nellentesque habitant.
-            </p>
-            <div className="facility-shape">
-              {" "}
-              <span className="flaticon-wifi" />{" "}
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div
-            className="single-facility animate-box"
-            data-animate-effect="fadeInUp"
-          >
-            <span className="flaticon-breakfast" />
-            <h5>Breakfast</h5>
-            <p>
-              Eat tincidunt nisa ace park norttito sit amet space, mus
-              nellentesque habitant
-            </p>
-            <div className="facility-shape">
-              {" "}
-              <span className="flaticon-breakfast" />{" "}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  {/* Team */}
-  <section className="team section-padding bg-cream">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-12">
-          <div className="section-subtitle">Professionals</div>
-          <div className="section-title">Meet The Team</div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-md-12 owl-carousel owl-theme">
-          <div className="item">
-            <div className="img">
-              {" "}
-              <img src="img/team/4.jpg" alt="" />{" "}
-            </div>
-            <div className="info">
-              <h6>Valentina Karla</h6>
-              <p>General Manager</p>
-              <div className="social valign">
-                <div className="full-width">
-                  <a href="#">
-                    <i className="ti-instagram" />
-                  </a>
-                  <a href="#">
-                    <i className="ti-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="ti-facebook" />
-                  </a>
-                  <a href="#">
-                    <i className="ti-pinterest" />
-                  </a>
-                  <p>valentina@hotel.com</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="item">
-            <div className="img">
-              <img src="img/team/1.jpg" alt="" />{" "}
-            </div>
-            <div className="info">
-              <h6>Micheal White</h6>
-              <p>Guest Service Department</p>
-              <div className="social valign">
-                <div className="full-width">
-                  <a href="#">
-                    <i className="ti-instagram" />
-                  </a>
-                  <a href="#">
-                    <i className="ti-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="ti-facebook" />
-                  </a>
-                  <a href="#">
-                    <i className="ti-pinterest" />
-                  </a>
-                  <p>micheal@hotel.com</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="item">
-            <div className="img">
-              {" "}
-              <img src="img/team/2.jpg" alt="" />{" "}
-            </div>
-            <div className="info">
-              <h6>Olivia Martin</h6>
-              <p>Reservations Manager</p>
-              <div className="social valign">
-                <div className="social valign">
-                  <div className="full-width">
-                    <a href="#">
-                      <i className="ti-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="ti-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="ti-facebook" />
-                    </a>
-                    <a href="#">
-                      <i className="ti-pinterest" />
-                    </a>
-                    <p>olivia@hotel.com</p>
+                </p>
+                <p>
+                  Through our curated and flexible plans
+                  and experiences, we invite you to see
+                  Amritsar through our eyes, beyond the
+                  usual tourist spots.
+                  We want every visitor to feel the same
+                  joy, warmth, and connection that we’ve
+                  cherished all our lives.
+                </p>
+                {/* call */}
+                <div className="reservations">
+                  <div className="icon">
+                    <span className="flaticon-call" />
+                  </div>
+                  <div className="text">
+                    <p>Reservation</p> <a href="tel:+91-8054540854">+91-80-54-54-08-54</a>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="item">
-            <div className="img">
-              {" "}
-              <img src="img/team/5.jpg" alt="" />{" "}
-            </div>
-            <div className="info">
-              <h6>Mariana Dana</h6>
-              <p>F&amp;B Manager</p>
-              <div className="social valign">
-                <div className="full-width">
-                  <a href="#">
-                    <i className="ti-instagram" />
-                  </a>
-                  <a href="#">
-                    <i className="ti-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="ti-facebook" />
-                  </a>
-                  <a href="#">
-                    <i className="ti-pinterest" />
-                  </a>
-                  <p>mariana@hotel.com</p>
-                </div>
+              <div
+                className="col col-md-3 animate-box"
+                data-animate-effect="fadeInUp"
+              >
+                <img src="img/rooms/aboutimg1.jpg" alt="" className="mt-90 mb-30" />
+              </div>
+              <div
+                className="col col-md-3 animate-box"
+                data-animate-effect="fadeInUp"
+              >
+                <img src="img/rooms/aboutimg2.jpg" alt="" />
               </div>
             </div>
           </div>
-          <div className="item">
-            <div className="img">
-              {" "}
-              <img src="img/team/3.jpg" alt="" />{" "}
-            </div>
-            <div className="info">
-              <h6>Enrico Brown</h6>
-              <p>Head Chef</p>
-              <div className="social valign">
-                <div className="full-width">
-                  <a href="#">
-                    <i className="ti-instagram" />
-                  </a>
-                  <a href="#">
-                    <i className="ti-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="ti-facebook" />
-                  </a>
-                  <a href="#">
-                    <i className="ti-pinterest" />
-                  </a>
-                  <p>enrico@hotel.com</p>
-                </div>
-              </div>
+        </section>
+
+        <>
+        
+          <section className="section-padding bg-blck">
+          <div className="container bg-blck" style={{ backgroundColor: "#DFD0B8", marginBottom:"80px" }}>
+            <div className="col-md-12">
+              <div className="section-subtitle">Professionals</div>
+              <div className="section-title">Meet The Team</div>
+
             </div>
           </div>
-          <div className="item">
-            <div className="img">
-              {" "}
-              <img src="img/team/6.jpg" alt="" />{" "}
-            </div>
-            <div className="info">
-              <h6>Victoria Dan</h6>
-              <p>Meetings and Events Manager</p>
-              <div className="social valign">
-                <div className="full-width">
-                  <a href="#">
-                    <i className="ti-instagram" />
-                  </a>
-                  <a href="#">
-                    <i className="ti-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="ti-facebook" />
-                  </a>
-                  <a href="#">
-                    <i className="ti-pinterest" />
-                  </a>
-                  <p>victoria@hotel.com</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+          <div className="container">
+  <div className="row mb-5">
+    <div className="col-lg-6 mb-4">
+      <img
+        src="img/slider/founder1.jpg"
+        alt="Loveleen Kaur Dhillon"
+        className="img-fluid rounded"
+        style={{ width: "100%", height: "530px", objectFit: "cover" }}
+      />
     </div>
-  </section>
-  {/* Testiominals */}
-  <section className="testimonials"></section>
-</>
+    <div className="col-lg-6 d-flex flex-column justify-content-center" style={{ backgroundColor: "#FAF6E9", padding: "20px" }}>
+      <h4><a href="#">Loveleen Kaur Dhillon</a></h4>
+      <p>A proud Amritsari by heart and heritage, our founder has lived in the city her entire life, deeply connected to its soul, stories, and spirit. With a background in Medical Sciences (B.Sc.), she brings a thoughtful, nurturing touch to everything she does—whether it's tending to her beloved plants or curating unforgettable experiences for travelers.
+
+</p>
+<p>A passionate advocate of Amritsar’s rich culture and heritage, she has been welcoming guests into her home and heart for many years. Her deep-rooted ties to the city’s social fabric and her insider knowledge make her the perfect ambassador for authentic Amritsar experiences. From hidden culinary gems to soulful spiritual moments, she knows just how to help visitors feel the essence of the city.
+
+
+</p>
+<p>
+Driven by her love for tourism and community, she founded this venture to showcase the best of Amritsar through warmth, hospitality, and unforgettable journeys.
+</p>
+      <hr className="border-2" />
+    </div>
+  </div>
+
+  <div className="row mb-5 flex-lg-row-reverse">
+    <div className="col-lg-6 mb-4">
+      <img
+        src="img/slider/founder2.jpg"
+        alt="Gurleen Kaur Dhillon"
+        className="img-fluid rounded"
+        style={{ width: "560px", height: "530px", objectFit: "cover" }}
+      />
+    </div>
+    <div className="col-lg-6 d-flex flex-column justify-content-center" style={{ backgroundColor: "#FAF6E9", padding: "20px" }}>
+      <h4><a href="#">Gurleen Kaur Dhillon</a></h4>
+      
+      <p>
+                        An engineer by education and a law graduate by choice, Gurleen Kaur Dhillon brings a unique blend of structure, insight, and creativity to the team. Though not originally from Amritsar, marriage brought her to this vibrant city, and what started as a new chapter soon turned into a deep, enduring love for its culture, people, and heritage.
+
+                      </p>
+                      <p>
+                        A regular face on Amritsar’s heritage walks, Gurleen thrives on introducing visitors to the city's rich history and hidden stories. With a background in commercial arts and a passion for visual storytelling, she personally scouts, visits, shoots, and edits content from every corner of Amritsar—ensuring every experience is both authentic and beautifully captured.
+
+                      </p>
+                      <p>
+                        Before co-founding this venture, she successfully managed other businesses, bringing valuable experience and an entrepreneurial spirit. Her appreciation for art, culture, and meaningful travel experiences makes her a natural guide and storyteller, helping guests discover Amritsar in a way that’s both immersive and inspiring.
+                      </p>
+      <hr className="border-2" />
+    </div>
+  </div>
+</div>
+
+          </section>
 
         </>
-    )
+
+
+        {/* Pricing */}
+
+        {/* Team */}
+   
+        {/* Testiominals */}
+        <section className="testimonials"></section>
+      </>
+
+    </>
+  )
 }
 export default About
