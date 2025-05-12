@@ -612,6 +612,111 @@ const Home = () => {
         </div>
       </section>
 
+{/* testimonials */}
+      <section className="testimonials">
+  <div
+    className="background bg-img bg-fixed section-padding pb-0"
+     data-background="img/slider/backgroundtwo.webp"
+    data-overlay-dark={3}
+   
+  >
+    <div className="container">
+      <div className="row">
+        <div className="col-md-8 offset-md-2">
+          <div className="testimonials-box">
+            <div className="head-box">
+              <h6>Testimonials</h6>
+              <h4>What Client's Say?</h4>
+              <div className="line" />
+            </div>
+            <div className="owl-carousel owl-theme">
+              <div className="item">
+                <span className="quote">
+                  <img src="img/quot.png" alt="" />
+                </span>
+                <p>
+                We had the absolute pleasure of hosting the very respected Mr. and Mrs. Sabnis. Their warmth, kindness, and genuine appreciation for every little detail made this experience truly special for us. It was an honor to show them the vibrant beauty and soul of Amritsar. We feel incredibly grateful for the wonderful time spent together and will always cherish these memories!
+
+                </p>
+                <div className="info">
+               
+                  <div className="cont">
+                    {" "}
+                    <span>
+                      <i className="star-rating" />
+                      <i className="star-rating" />
+                      <i className="star-rating" />
+                      <i className="star-rating" />
+                      <i className="star-rating" />
+                    </span>
+                    <h6><a href="     https://www.instagram.com/reel/DI-q1alT93W/?igsh=OGdtcWxpaHZ0M2Zm "><span>Click To Watch Guest review</span></a></h6> 
+                  </div>
+                </div>
+              </div>
+              {/* <div className="item">
+                <span className="quote">
+                  <img src="img/quot.png" alt="" />
+                </span>
+                <p>
+                  Hotel dapibus asue metus the nec feusiate eraten miss hendreri
+                  net ve ante the lemon sanleo nectan feugiat erat hendrerit
+                  necuis ve ante otel inilla duiman at finibus viverra neca the
+                  sene on satien the miss drana inc fermen norttito sit space,
+                  mus nellentesque habitan.
+                </p>
+                <div className="info">
+                
+                  <div className="cont">
+                    {" "}
+                    <span>
+                      <i className="star-rating" />
+                      <i className="star-rating" />
+                      <i className="star-rating" />
+                      <i className="star-rating" />
+                      <i className="star-rating" />
+                    </span>
+                    <h6>Nolan White</h6> <span>Guest review</span>
+                  </div>
+                </div>
+              </div> */}
+              {/* <div className="item">
+                <span className="quote">
+                  <img src="img/quot.png" alt="" />
+                </span>
+                <p>
+                  Hotel dapibus asue metus the nec feusiate eraten miss hendreri
+                  net ve ante the lemon sanleo nectan feugiat erat hendrerit
+                  necuis ve ante otel inilla duiman at finibus viverra neca the
+                  sene on satien the miss drana inc fermen norttito sit space,
+                  mus nellentesque habitan.
+                </p>
+                <div className="info">
+                  <div className="author-img">
+                    {" "}
+                    <img src="img/team/5.jpg" alt="" />{" "}
+                  </div>
+                  <div className="cont">
+                    {" "}
+                    <span>
+                      <i className="star-rating" />
+                      <i className="star-rating" />
+                      <i className="star-rating" />
+                      <i className="star-rating" />
+                      <i className="star-rating" />
+                    </span>
+                    <h6>Olivia Martin</h6> <span>Guest review</span>
+                  </div>
+                </div>
+              </div> */}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
     </>
   )
