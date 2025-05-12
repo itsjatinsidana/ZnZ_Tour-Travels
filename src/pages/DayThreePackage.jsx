@@ -35,13 +35,13 @@ const DayThreePackage = () => {
             </header>
             {/* Room Content */}
             <section className="rooms-page section-padding" data-scroll-index={1} style={{
-        backgroundImage: "url('img/slider/background.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      
-        // filter: "blur(5px)",
-      }}>
+                backgroundImage: "url('img/slider/background.jpg')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+
+                // filter: "blur(5px)",
+            }}>
                 <div className="container">
                     {/* project content */}
                     <div className="row">
@@ -57,13 +57,22 @@ const DayThreePackage = () => {
                             <div className="section-title">Day 1 Trip</div>
                         </div>
                         <div className="col-md-8">
-                            <p className="mb-30" style={{  fontSize: "16px",
-                                                        fontWeight: "bold"}}>
-                                9:00 AM — Golden Temple Darshan
+                            <p className="mb-30" style={{
+                                fontSize: "16px",
+                                fontWeight: "normal",
+                                textAlign: "justify"
+                            }}>
+                                <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                    9:00 AM — Golden Temple Darshan
+                                </span>
+                                <br />
                                 Begin your day with a peaceful visit to the Golden Temple. Immerse yourself in the spiritual aura and admire the breathtaking architecture reflected in the holy Sarovar.
                                 <br />
+                                <br />
+                                <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                    11:00 AM — Choose Your Experience:
+                                </span>
 
-                                11:00 AM — Choose Your Experience:
                                 <br />
                                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-around" }}>
                                     <div className="col-md-12">
@@ -93,53 +102,89 @@ const DayThreePackage = () => {
                                             {/* Modal Body */}
                                             <div className="modal-body">
                                                 <div className="col-md-12">
-                                                    <p className="mb-30" style={{
-                                                        fontSize: "18px",
-                                                        fontWeight: "bold"
-                                                    }}>
-                                                        9:00 AM — Golden Temple Darshan
+                                                    <p
+                                                        className="mb-30"
+                                                        style={{
+                                                            fontSize: "16px",
+                                                            fontWeight: "normal",
+                                                            textAlign: "justify"
+                                                        }}
+                                                    >
+                                                        <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                            9:00 AM — Golden Temple Darshan
+                                                        </span>
+                                                        <br />
                                                         Begin your day with a peaceful visit to the Golden Temple. Immerse yourself in the spiritual aura and admire the breathtaking architecture reflected in the holy Sarovar.
-                                                        <br />
-                                                        <br />
-                                                        11:00 AM — Choose Your Experience:
-                                                        <br />
+                                                        <br /><br />
 
-                                                        Option 1: Extended Visit to Jallianwala Bagh & Partition Museum <br />
+                                                        <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                            11:00 AM — Choose Your Experience:
+                                                        </span>
+                                                        <br /><br />
 
-                                                        Spend more time exploring the powerful history of Jallianwala Bagh, understanding the stories behind the memorial.<br />
-
-                                                        Then, dive into an in-depth journey at the Partition Museum, where personal accounts and historical artifacts paint a vivid picture of India's Partition.<br />
+                                                        <span style={{ fontWeight: "bold" }}>
+                                                            Option 1: Extended Visit to Jallianwala Bagh & Partition Museum
+                                                        </span>
+                                                        <br />
+                                                        Spend more time exploring the powerful history of Jallianwala Bagh, understanding the stories behind the memorial.
+                                                        <br />
+                                                        Then, dive into an in-depth journey at the Partition Museum, where personal accounts and historical artifacts paint a vivid picture of India's Partition.
                                                         (This option gives you more time to thoroughly experience both sites.)
-                                                        <br />
-                                                        <br />
-                                                        OR
-                                                        <br />
-                                                        <br />
-                                                        Option 2: Heritage Walk with a Brief Jallianwala Bagh Visit
+                                                        <br /><br />
+
+                                                        <strong>OR</strong>
+                                                        <br /><br />
+
+                                                        <span style={{ fontWeight: "bold" }}>
+                                                            Option 2: Heritage Walk with a Brief Jallianwala Bagh Visit
+                                                        </span>
                                                         <br />
                                                         Start with a brief stop at Jallianwala Bagh to pay your respects and witness the key spots inside the memorial.
-
-                                                        Then, continue on a captivating Heritage Walk through Amritsar’s narrow lanes and bustling bazaars. Discover hidden gems, centuries-old havelis, and experience the city's true cultural charm.
-                                                        <br />  <br />
-
-                                                        1:30 PM — Special Amritsari Kulcha Break (On Us!)
-                                                        Time for a mouthwatering treat — enjoy piping hot, authentic Amritsari Kulchas with chole and lassi at one of the city's famous spots. This one's on us — your meal is covered!
                                                         <br />
+                                                        Then, continue on a captivating Heritage Walk through Amritsar’s narrow lanes and bustling bazaars. Discover hidden gems, centuries-old havelis, and experience the city's true cultural charm.
+                                                        <br /><br />
 
+                                                        <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                            1:30 PM — Special Amritsari Kulcha Break (On Us!)
+                                                        </span>
+                                                        <br />
+                                                        Time for a mouthwatering treat — enjoy piping hot, authentic Amritsari Kulchas with chole and lassi at one of the city's famous spots. This one's on us — your meal is covered!
                                                     </p>
+
                                                     <p className="mb-30" style={{
-                                                        fontSize: "18px",
-                                                        fontWeight: "bold"
+                                                        fontSize: "16px",
+                                                        fontWeight: "normal",
+                                                        textAlign: "justify"
                                                     }}>
-                                                        2:00 PM — Depart for Wagah Border
+                                                        <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                            2:00 PM — Depart for Wagah Border
+                                                        </span>
+                                                        <br />
                                                         Head towards the Wagah Border early to secure a good viewing spot for the electrifying Beating Retreat Ceremony.
                                                         <br /><br />
-                                                        4:00 PM — Wagah Border Ceremony
+                                                        <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                            4:00 PM — Wagah Border Ceremony
+                                                        </span>
+                                                        <br />
                                                         Witness the iconic India-Pakistan border ceremony filled with patriotic energy, cheering crowds, and an unforgettable atmosphere.
                                                         <br /><br />
-                                                        7:00 PM — Return to Stay
-                                                        Head back to your luxurious ZnZ Travel & Stays accommodation for a relaxing evening.
+                                                        <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                            7:30 PM — Dinner at an Iconic Amritsar Restaurant
+
+                                                        </span>
                                                         <br />
+                                                        Experience a memorable dinner at one of Amritsar’s most iconic dining spots. (A curated list of restaurant options will be shared with you — pick your favorite!)
+
+                                                        <br />
+                                                        <br />
+                                                        <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                            9:00 PM — Return to Stay
+
+
+                                                        </span>
+
+                                                        <br />
+                                                        You’ll be taken back to your accommodation for a restful end to your incredible day in Amritsar.
                                                     </p>
                                                 </div>
                                             </div>
@@ -162,17 +207,26 @@ const DayThreePackage = () => {
 
                             <div className="section-title">Day 2 Trip</div>
                             <div className="col-md-12">
-                                <p className="mb-30" style={{  fontSize: "16px",
-                                                        fontWeight: "bold"}}>
-                                    Start Time: 9:30 AM
-                                    <br />
-                                    9:30 AM — Visit Shaheeda Sahib
-                                    <br />
-                                    Begin your day with a visit to Shaheeda Sahib Gurudwara, a sacred place dedicated to Baba Deep Singh Ji, the legendary Sikh warrior who fought bravely for the sanctity of the Golden Temple.
+                                <p className="mb-30" style={{
+                                    fontSize: "16px",
+                                    fontWeight: "normal",
+                                    textAlign: "justify"
+                                }}>
+                                    <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                        Start Time: 9:30 AM
+                                    </span>
 
                                     <br />
+                                    9:30 AM — Breakfast at Kanha Sweets
+
                                     <br />
-                                    10:30 AM — Visit Durgiana Mandir
+                                    Start your day with a hearty Amritsari breakfast at the iconic Kanha Sweets, famous for its crispy puri-chole and sweet halwa. A true local favorite to energize your morning!
+
+                                    <br />
+                                    <br /> <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                        10:15 AM — Visit Durgiana Mandir
+                                    </span>
+                                    <br />
                                     Head to the Durgiana Mandir, also known as the Silver Temple, resembling the Golden Temple's architecture. It’s a beautiful Hindu shrine dedicated to Goddess Durga, Lord Vishnu, and Hanuman.
 
                                     <br />
@@ -205,41 +259,101 @@ const DayThreePackage = () => {
                                                 <div className="modal-body">
                                                     <div className="col-md-12">
                                                         <p className="mb-30" style={{
-                                                            fontSize: "18px",
-                                                            fontWeight: "bold"
+                                                            fontSize: "16px",
+                                                            fontWeight: "normal",
+                                                            textAlign: "justify"
                                                         }}>
-                                                            Start Time: 9:30 AM
-                                                            <br />
-                                                            9:30 AM — Visit Shaheeda Sahib
-                                                            <br />
-                                                            Begin your day with a visit to Shaheeda Sahib Gurudwara, a sacred place dedicated to Baba Deep Singh Ji, the legendary Sikh warrior who fought bravely for the sanctity of the Golden Temple.
+                                                            <span style={{ fontSize: "18px", fontWeight: "bold" }}>
+                                                                Start Time: 9:30 AM
+                                                            </span>
+                                                            <br /><br />
 
+                                                            <span style={{ fontWeight: "bold" }}>
+                                                                9:30 AM — Breakfast at Kanha Sweets
+
+                                                            </span>
                                                             <br />
+                                                            Start your day with a hearty Amritsari breakfast at the iconic Kanha Sweets, famous for its crispy puri-chole and sweet halwa. A true local favorite to energize your morning!
+
+                                                            <br /><br />
+
+                                                            <span style={{ fontWeight: "bold" }}>
+                                                                10:15 AM — Visit Durgiana Mandir
+                                                            </span>
                                                             <br />
-                                                            10:30 AM — Visit Durgiana Mandir
                                                             Head to the Durgiana Mandir, also known as the Silver Temple, resembling the Golden Temple's architecture. It’s a beautiful Hindu shrine dedicated to Goddess Durga, Lord Vishnu, and Hanuman.
                                                         </p>
+
                                                         <p className="mb-30" style={{
-                                                            fontSize: "18px",
-                                                            fontWeight: "bold"
+                                                            fontSize: "16px",
+                                                            fontWeight: "normal",
+                                                            textAlign: "justify"
                                                         }}>
-                                                            12:00 PM — Lunch Break (Meal of Your Choice)
-                                                            Enjoy a relaxing lunch at a restaurant of your preference. We’ll recommend some great local spots — whether you’re in the mood for classic Punjabi cuisine or something light and refreshing.
+                                                            <span style={{ fontWeight: "bold" }}>
+                                                                11:00 PM — Partition Museum Visit
+
+                                                            </span>
                                                             <br />
+                                                            Explore the emotionally powerful Partition Museum, where personal stories, photographs, and exhibits bring to life the impact of the 1947 Partition on millions.
+
+
+                                                            <br /><br />
+
+                                                            <span style={{ fontWeight: "bold" }}>
+                                                                12:15 PM —  Market Stroll: Hall Bazaar, Katra Jaimal Singh & Guru Bazaar
+
+                                                            </span>
                                                             <br />
-                                                            1:30 PM — Visit Ram Tirath Temple
-                                                            Explore the historic Ram Tirath Temple, believed to be the birthplace of Lav and Kush (sons of Lord Ram). It holds great significance from the Ramayana era, with a sacred pond and ancient structures.
+                                                            Get ready for a lively shopping experience in Amritsar's most iconic markets. Browse vibrant phulkari work, sparkling jewelry, Punjabi juttis, fabrics, and souvenirs in Hall Bazaar, Katra Jaimal Singh, and Guru Bazaar.
+
+                                                            <br /><br />
+
+                                                            <span style={{ fontWeight: "bold" }}>
+                                                                1:15 PM — Famous Giani di Lassi Break
+
+                                                            </span>
                                                             <br />
+                                                            Cool down with the legendary Pede Wali Lassi from Giani di Lassi — thick, creamy, and a true taste of Amritsar.
+
+                                                            <br /><br />
+
+                                                            <span style={{ fontWeight: "bold" }}>
+                                                                1:30 PM —  Lunch at an Iconic Amritsar Restaurant
+
+                                                            </span>
                                                             <br />
-                                                            3:00 PM — Sadda Pind (Tickets on Us!)
-                                                            Step into a vibrant Punjabi village experience at Sadda Pind — a live cultural village showcasing traditional Punjabi life. From folk dances, pottery, and handcrafts to tractor rides and live music, it’s a perfect way to soak in Punjab’s rich heritage.
-                                                            ✅ Tickets are covered by us, including the meal inside Sadda Pind!
+                                                            Enjoy a flavorful lunch at one of Amritsar’s top-rated restaurants. We’ll recommend the best based on your mood — whether it’s a rustic dhaba or a contemporary Punjabi kitchen.
+
+                                                            <br /><br />
+
+                                                            <span style={{ fontWeight: "bold" }}>
+                                                                3:00 PM — Visit Ram Tirath Temple
+
+                                                            </span>
                                                             <br />
+                                                            Step into mythology at the Ram Tirath Temple, believed to be the birthplace of Lav and Kush, sons of Lord Ram. The site features a sacred pond, ancient caves, and a giant Hanuman statue.
+                                                            <br /><br />
+
+                                                            <span style={{ fontWeight: "bold" }}>
+                                                                4:30 PM — Sadda Pind (Tickets & Dinner Included!)
+
+
+                                                            </span>
                                                             <br />
-                                                            6:00 PM — Return to Stay
-                                                            Head back to your cozy ZnZ Travel & Stays accommodation for a restful evening.
+                                                            Experience traditional Punjabi village life at Sadda Pind — from folk dances, live music, tractor rides, and artisan crafts to a delicious Punjabi dinner.
+                                                            ✅ Entry and dinner are fully covered — a cultural evening you’ll never forget!
+                                                            <br /><br />
+
+                                                            <span style={{ fontWeight: "bold" }}>
+
+                                                                10:00 PM — Return to Stay
+
+
+                                                            </span>
                                                             <br />
+                                                            Wind down and return to your welcoming ZnZ Travel & Stays accommodation after a fun-filled and memorable day.
                                                         </p>
+
                                                     </div>
                                                 </div>
 
@@ -258,27 +372,32 @@ const DayThreePackage = () => {
 
                                 </p>
 
-
                             </div>
                             <div className="section-title">Day 3 Trip</div>
                             <div className="col-md-12">
-                                <p className="mb-30"style={{  fontSize: "16px",
-                                                        fontWeight: "bold"}}>
-                                    Morning Option: Sunrise Village Tour (Optional)
+                                <p className="mb-30" style={{
+                                    fontSize: "16px",
+                                    fontWeight: "normal",
+                                    textAlign: "justify"
+                                }}>
+                                    <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                        Start Time: 9:30 AM
+                                    </span>
                                     <br />
+                                    9:00 AM — Breakfast at Bharawan Da Dhaba (Ranjit Avenue)
 
 
-                                    6:00 AM — Sunrise in the Fields (Optional)
                                     <br />
+                                    Start your day with a flavorful Punjabi breakfast at the iconic Bharawan Da Dhaba, known for its rich, traditional dishes served in a cozy setting.
 
-                                    Start the day with a refreshing visit to a traditional Punjabi village. Witness the sunrise over the fields, walk through lush farms, and experience the peaceful countryside vibe.
                                     <br />
-                                    <br />
+                                    <br /> <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                        10:00 AM — Punjab State War Heroes Memorial & Museum
 
-                                    After the village experience, you now have two breakfast options:
+                                    </span>
                                     <br />
-                                    <br />
-                                    8:00 AM — Breakfast (Choose Your Style)
+                                    Pay tribute to the valor of Punjab's soldiers. Explore insightful exhibits, aircraft displays, and stories that bring India’s military history to life.
+
 
 
                                     <br />
@@ -311,86 +430,107 @@ const DayThreePackage = () => {
                                                 <div className="modal-body">
                                                     <div className="col-md-12">
                                                         <p className="mb-30" style={{
-                                                            fontSize: "18px",
-                                                            fontWeight: "bold"
+                                                            fontSize: "16px",
+                                                            fontWeight: "normal",
+                                                            textAlign: "justify"
                                                         }}>
-                                                            Morning Option: Sunrise Village Tour (Optional)
+                                                            <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                Start Time: 9:30 AM
+                                                            </span>
                                                             <br />
+                                                            9:00 AM — Breakfast at Bharawan Da Dhaba (Ranjit Avenue)
 
 
-                                                            6:00 AM — Sunrise in the Fields (Optional)
                                                             <br />
-
-                                                            Start the day with a refreshing visit to a traditional Punjabi village. Witness the sunrise over the fields, walk through lush farms, and experience the peaceful countryside vibe.
-                                                            <br />
-                                                            <br />
-
-                                                            After the village experience, you now have two breakfast options:
-                                                            <br />
-                                                            <br />
-                                                            8:00 AM — Breakfast (Choose Your Style)
-                                                            <br />
-                                                            ✅ Option 1: Return to Hotel for Breakfast — Head back to your stay for a relaxed, cozy breakfast.
-                                                            <br />
-                                                            ✅ Option 2: Local Breakfast Experience — Dive into Amritsar’s authentic morning flavors! Choose between:
-                                                            <br />
-                                                            Kanha Sweets’ famous Pooris with Chole and Aloo Sabzi — A must-try for a hearty Punjabi breakfast.
-                                                            <br />
-                                                            Amritsari Kulchas (again!) — Because one round of Kulchas is never enough!
+                                                            Start your day with a flavorful Punjabi breakfast at the iconic Bharawan Da Dhaba, known for its rich, traditional dishes served in a cozy setting.
 
                                                             <br />
+                                                            <br /> <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                10:00 AM — Punjab State War Heroes Memorial & Museum
+
+                                                            </span>
                                                             <br />
-                                                            11:00 AM — Shopping Experience (Your Way)
+                                                            Pay tribute to the valor of Punjab's soldiers. Explore insightful exhibits, aircraft displays, and stories that bring India’s military history to life.
+
+
+
                                                             <br />
-                                                            Once the markets open, it’s time for a personalized shopping spree! You choose where to explore:
+                                                            <br /> <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                11:30 AM — Visit Pul Kanjri
+
+
+                                                            </span>
                                                             <br />
-                                                            ✅ Hall Bazaar — A vibrant market with traditional Punjabi suits, juttis, jewelry, and souvenirs.
+                                                            Explore Pul Kanjri, a peaceful heritage site connected to Maharaja Ranjit Singh and the India-Pakistan history. A serene and culturally significant stop.
+
                                                             <br />
-                                                            ✅ Lawrence Road — A mix of branded stores and local gems.
+                                                            <br /><span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                1:00 PM — Real Village Visit & Lunch
+
+
+                                                            </span>
                                                             <br />
-                                                            ✅ Phulkari Markets — For beautifully embroidered Punjabi Phulkari dupattas and outfits.
+                                                            Experience the soul of Punjab with a true village visit. Stroll through farmlands, meet local families, and enjoy a freshly cooked Punjabi meal in a rustic, heartwarming setting. A truly authentic slice of local life.
                                                             <br />
-                                                            ✅ Old City Markets — Dive into narrow, bustling lanes filled with authentic local finds.
+                                                            <br /><span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                4:00 PM — Iconic Amritsar Street Food Tasting
+
+
+
+                                                            </span>
                                                             <br />
-
-
-                                                            (Our guide will help you bargain and find the best deals!)
-
-
-                                                        </p>
-                                                        <p className="mb-30" style={{
-                                                            fontSize: "18px",
-                                                            fontWeight: "bold"
-                                                        }}>
-
-                                                            1:00 PM — Lunch Break
-                                                            <br/>
-                                                            Refuel with lunch at a restaurant of your choice — from classic Punjabi dhabas to modern eateries. We’ll recommend the best spots nearby.
-
-                                                            <br/>
-                                                            <br/>
-
-                                                            2:30 PM — Visit the Punjab War Memorial (Optional)
-                                                            <br/>
-                                                            A visit to this powerful memorial is a chance to honor Punjab’s brave soldiers through insightful exhibits and stories.
-
-                                                            <br/>
-                                                            <br/>
-
-                                                            4:00 PM — Gobindgarh Fort (Tickets & Meals on Us!)
-                                                            <br/>
-                                                            End your journey with Amritsar’s historical gem — Gobindgarh Fort.<br/>
-                                                            Enjoy:
-                                                            <br/>
-                                                            ✅ Live cultural performances — Bhangra, Gidda, and traditional martial arts (Gatka).<br/>
-                                                            ✅ 360° Light & Sound Show — A spectacular retelling of the fort’s rich past.<br/>
-                                                            ✅ Dinner inside the fort (included) — Enjoy a wholesome Punjabi meal — on us!
-                                                            <br/>
-                                                            <br/>
-                                                            7:00 PM — Return to Stay
-                                                            <br/>
-                                                            Return to your ZnZ Travel & Stays accommodation after an unforgettable day.
+                                                            Back in town, embark on a flavorful walk through Amritsar’s most loved street food spots. Try legendary tandoori snacks, spicy chaats, and sweet treats with our guide.
                                                             <br />
+                                                            <br /><span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                1:00 PM — Real Village Visit & Lunch
+
+
+                                                            </span>
+                                                            <br />
+                                                            Experience the soul of Punjab with a true village visit. Stroll through farmlands, meet local families, and enjoy a freshly cooked Punjabi meal in a rustic, heartwarming setting. A truly authentic slice of local life.
+
+
+                                                            <br />
+                                                            <br /><span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                7:00 PM — Kulfa Stop
+
+
+
+                                                            </span>
+                                                            <br />
+                                                            Savor the famous Amritsari Kulfa — a rich dessert layered with falooda, rabri, and crushed ice. It’s cold, creamy, and absolutely unforgettable.
+                                                            <br />
+                                                            <br /><span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                7:30 PM — Gobindgarh Fort (Tickets & Experiences on Us!)
+
+
+
+                                                            </span>
+                                                            <br />
+                                                            End your trip with an evening at Gobindgarh Fort, packed with heritage and culture:
+                                                            <br />✅ Live folk performances (Bhangra, Gidda, Gatka)
+                                                            <br />✅ 360° Light & Sound Show
+                                                            <br />✅ Artisan shops, museums & exhibits
+                                                            <br />✅ Cultural ambiance all around
+
+                                                            <br />
+                                                            <br /><span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                9:00 PM — Dinner at Amritsar Haveli
+
+
+
+                                                            </span>
+                                                            <br />
+                                                            Enjoy a grand Punjabi dinner at the traditional-style Amritsar Haveli — perfect for your final night in the city.
+                                                            <br />
+                                                            <br /><span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                10:00 PM — Return to Stay
+
+
+
+                                                            </span>
+                                                            <br />
+                                                            Head back to your welcoming ZnZ Travel & Stays accommodation after a rich, immersive day in Amritsar.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -500,7 +640,8 @@ const DayThreePackage = () => {
                                         <span className="flaticon-group" />{" "}
                                     </div>
                                     <div className="page-list-text">
-                                        <p>1-2 Persons</p>
+                                        <p>Welcome kits containing all eassentials for Amritsar trip.
+                                        </p>
                                     </div>
                                 </li>
                                 <li>
@@ -509,16 +650,18 @@ const DayThreePackage = () => {
                                         <span className="flaticon-wifi" />{" "}
                                     </div>
                                     <div className="page-list-text">
-                                        <p>Free Wifi</p>
+                                        <p> 24x7 representative available.
+                                        </p>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="page-list-icon">
                                         {" "}
-                                        <span className="flaticon-clock-1" />{" "}
+                                        <span className="flaticon-group" />{" "}
                                     </div>
                                     <div className="page-list-text">
-                                        <p>200 sqft room</p>
+                                        <p> 7-seater cars
+                                        </p>
                                     </div>
                                 </li>
                                 <li>
@@ -527,16 +670,17 @@ const DayThreePackage = () => {
                                         <span className="flaticon-breakfast" />{" "}
                                     </div>
                                     <div className="page-list-text">
-                                        <p>Breakfast</p>
+                                        <p>Major entry tickets included.
+                                        </p>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="page-list-icon">
                                         {" "}
-                                        <span className="flaticon-towel" />{" "}
+                                        <span className="flaticon-wifi" />{" "}
                                     </div>
                                     <div className="page-list-text">
-                                        <p>Towels</p>
+                                        <p>In-vehicle Wifi available if required.</p>
                                     </div>
                                 </li>
 

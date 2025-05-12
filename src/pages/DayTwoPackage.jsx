@@ -53,7 +53,7 @@ const DayTwoPackage = () => {
                                     <i className="star-rating" />
                                     <i className="star-rating" />
                                 </span>
-                                <div className="section-subtitle">Wheels up, worries down!</div>
+                              
                                 <div className="section-title">Day 1 Trip</div>
                             </div>
                             <div className="col-md-8">
@@ -169,11 +169,22 @@ const DayTwoPackage = () => {
                                                             Witness the iconic India-Pakistan border ceremony filled with patriotic energy, cheering crowds, and an unforgettable atmosphere.
                                                             <br /><br />
                                                             <span style={{ fontWeight: "bold", fontSize: "18px" }}>
-                                                                7:00 PM — Return to Stay
+                                                                7:30 PM — Dinner at an Iconic Amritsar Restaurant
+
                                                             </span>
                                                             <br />
-                                                            Head back to your luxurious ZnZ Travel & Stays accommodation for a relaxing evening.
+                                                            Experience a memorable dinner at one of Amritsar’s most iconic dining spots. (A curated list of restaurant options will be shared with you — pick your favorite!)
+
                                                             <br />
+                                                            <br />
+                                                            <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                                                9:00 PM — Return to Stay
+
+
+                                                            </span>
+
+                                                            <br />
+                                                            You’ll be taken back to your accommodation for a restful end to your incredible day in Amritsar.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -206,13 +217,14 @@ const DayTwoPackage = () => {
                                         </span>
 
                                         <br />
-                                        9:30 AM — Visit Shaheeda Sahib
+                                        9:30 AM — Breakfast at Kanha Sweets
+
                                         <br />
-                                        Begin your day with a visit to Shaheeda Sahib Gurudwara, a sacred place dedicated to Baba Deep Singh Ji, the legendary Sikh warrior who fought bravely for the sanctity of the Golden Temple.
+                                        Start your day with a hearty Amritsari breakfast at the iconic Kanha Sweets, famous for its crispy puri-chole and sweet halwa. A true local favorite to energize your morning!
 
                                         <br />
                                         <br /> <span style={{ fontWeight: "bold", fontSize: "18px" }}>
-                                            10:30 AM — Visit Durgiana Mandir
+                                            10:15 AM — Visit Durgiana Mandir
                                         </span>
                                         <br />
                                         Head to the Durgiana Mandir, also known as the Silver Temple, resembling the Golden Temple's architecture. It’s a beautiful Hindu shrine dedicated to Goddess Durga, Lord Vishnu, and Hanuman.
@@ -257,14 +269,16 @@ const DayTwoPackage = () => {
                                                                 <br /><br />
 
                                                                 <span style={{ fontWeight: "bold" }}>
-                                                                    9:30 AM — Visit Shaheeda Sahib
+                                                                    9:30 AM — Breakfast at Kanha Sweets
+
                                                                 </span>
                                                                 <br />
-                                                                Begin your day with a visit to Shaheeda Sahib Gurudwara, a sacred place dedicated to Baba Deep Singh Ji, the legendary Sikh warrior who fought bravely for the sanctity of the Golden Temple.
+                                                                Start your day with a hearty Amritsari breakfast at the iconic Kanha Sweets, famous for its crispy puri-chole and sweet halwa. A true local favorite to energize your morning!
+
                                                                 <br /><br />
 
                                                                 <span style={{ fontWeight: "bold" }}>
-                                                                    10:30 AM — Visit Durgiana Mandir
+                                                                    10:15 AM — Visit Durgiana Mandir
                                                                 </span>
                                                                 <br />
                                                                 Head to the Durgiana Mandir, also known as the Silver Temple, resembling the Golden Temple's architecture. It’s a beautiful Hindu shrine dedicated to Goddess Durga, Lord Vishnu, and Hanuman.
@@ -276,32 +290,68 @@ const DayTwoPackage = () => {
                                                                 textAlign: "justify"
                                                             }}>
                                                                 <span style={{ fontWeight: "bold" }}>
-                                                                    12:00 PM — Lunch Break (Meal of Your Choice)
+                                                                    11:00 PM — Partition Museum Visit
+
                                                                 </span>
                                                                 <br />
-                                                                Enjoy a relaxing lunch at a restaurant of your preference. We’ll recommend some great local spots — whether you’re in the mood for classic Punjabi cuisine or something light and refreshing.
+                                                                Explore the emotionally powerful Partition Museum, where personal stories, photographs, and exhibits bring to life the impact of the 1947 Partition on millions.
+
+
                                                                 <br /><br />
 
                                                                 <span style={{ fontWeight: "bold" }}>
-                                                                    1:30 PM — Visit Ram Tirath Temple
+                                                                    12:15 PM —  Market Stroll: Hall Bazaar, Katra Jaimal Singh & Guru Bazaar
+
                                                                 </span>
                                                                 <br />
-                                                                Explore the historic Ram Tirath Temple, believed to be the birthplace of Lav and Kush (sons of Lord Ram). It holds great significance from the Ramayana era, with a sacred pond and ancient structures.
+                                                                Get ready for a lively shopping experience in Amritsar's most iconic markets. Browse vibrant phulkari work, sparkling jewelry, Punjabi juttis, fabrics, and souvenirs in Hall Bazaar, Katra Jaimal Singh, and Guru Bazaar.
+
                                                                 <br /><br />
 
                                                                 <span style={{ fontWeight: "bold" }}>
-                                                                    3:00 PM — Sadda Pind (Tickets on Us!)
+                                                                    1:15 PM — Famous Giani di Lassi Break
+
                                                                 </span>
                                                                 <br />
-                                                                Step into a vibrant Punjabi village experience at Sadda Pind — a live cultural village showcasing traditional Punjabi life. From folk dances, pottery, and handcrafts to tractor rides and live music, it’s a perfect way to soak in Punjab’s rich heritage.
-                                                                ✅ Tickets are covered by us, including the meal inside Sadda Pind!
+                                                                Cool down with the legendary Pede Wali Lassi from Giani di Lassi — thick, creamy, and a true taste of Amritsar.
+
                                                                 <br /><br />
 
                                                                 <span style={{ fontWeight: "bold" }}>
-                                                                    6:00 PM — Return to Stay
+                                                                    1:30 PM —  Lunch at an Iconic Amritsar Restaurant
+
                                                                 </span>
                                                                 <br />
-                                                                Head back to your cozy ZnZ Travel & Stays accommodation for a restful evening.
+                                                                Enjoy a flavorful lunch at one of Amritsar’s top-rated restaurants. We’ll recommend the best based on your mood — whether it’s a rustic dhaba or a contemporary Punjabi kitchen.
+
+                                                                <br /><br />
+
+                                                                <span style={{ fontWeight: "bold" }}>
+                                                                    3:00 PM — Visit Ram Tirath Temple
+
+                                                                </span>
+                                                                <br />
+                                                                Step into mythology at the Ram Tirath Temple, believed to be the birthplace of Lav and Kush, sons of Lord Ram. The site features a sacred pond, ancient caves, and a giant Hanuman statue.
+                                                                <br /><br />
+
+                                                                <span style={{ fontWeight: "bold" }}>
+                                                                    4:30 PM — Sadda Pind (Tickets & Dinner Included!)
+
+
+                                                                </span>
+                                                                <br />
+                                                                Experience traditional Punjabi village life at Sadda Pind — from folk dances, live music, tractor rides, and artisan crafts to a delicious Punjabi dinner.
+                                                                ✅ Entry and dinner are fully covered — a cultural evening you’ll never forget!
+                                                                <br /><br />
+
+                                                                <span style={{ fontWeight: "bold" }}>
+
+                                                                    10:00 PM — Return to Stay
+
+
+                                                                </span>
+                                                                <br />
+                                                                Wind down and return to your welcoming ZnZ Travel & Stays accommodation after a fun-filled and memorable day.
                                                             </p>
 
                                                         </div>
@@ -411,7 +461,8 @@ const DayTwoPackage = () => {
                                             <span className="flaticon-group" />{" "}
                                         </div>
                                         <div className="page-list-text">
-                                            <p>1-2 Persons</p>
+                                            <p>Welcome kits containing all eassentials for Amritsar trip.
+                                            </p>
                                         </div>
                                     </li>
                                     <li>
@@ -420,16 +471,18 @@ const DayTwoPackage = () => {
                                             <span className="flaticon-wifi" />{" "}
                                         </div>
                                         <div className="page-list-text">
-                                            <p>Free Wifi</p>
+                                            <p> 24x7 representative available.
+                                            </p>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="page-list-icon">
                                             {" "}
-                                            <span className="flaticon-clock-1" />{" "}
+                                            <span className="flaticon-group" />{" "}
                                         </div>
                                         <div className="page-list-text">
-                                            <p>200 sqft room</p>
+                                            <p> 7-seater cars
+                                            </p>
                                         </div>
                                     </li>
                                     <li>
@@ -438,16 +491,17 @@ const DayTwoPackage = () => {
                                             <span className="flaticon-breakfast" />{" "}
                                         </div>
                                         <div className="page-list-text">
-                                            <p>Breakfast</p>
+                                            <p>Major entry tickets included.
+                                            </p>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="page-list-icon">
                                             {" "}
-                                            <span className="flaticon-towel" />{" "}
+                                            <span className="flaticon-wifi" />{" "}
                                         </div>
                                         <div className="page-list-text">
-                                            <p>Towels</p>
+                                            <p>In-vehicle Wifi available if required.</p>
                                         </div>
                                     </li>
 

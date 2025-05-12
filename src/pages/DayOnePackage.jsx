@@ -54,7 +54,7 @@ const DayOnePackage = () => {
                                     <i className="star-rating" />
                                     <i className="star-rating" />
                                 </span>
-                                <div className="section-subtitle">Wheels up, worries down!</div>
+                               
                                 <div className="section-title">Day 1 Trip</div>
                             </div>
                             <div className="col-md-8">
@@ -125,11 +125,23 @@ const DayOnePackage = () => {
                                     Witness the iconic India-Pakistan border ceremony filled with patriotic energy, cheering crowds, and an unforgettable atmosphere.
                                     <br /><br />
                                     <span style={{ fontWeight: "bold", fontSize: "18px" }}>
-                                    7:00 PM — Return to Stay
+                                    7:30 PM — Dinner at an Iconic Amritsar Restaurant
+
                                     </span>
                                     <br/>
-                                    Head back to your luxurious ZnZ Travel & Stays accommodation for a relaxing evening.
+                                    Experience a memorable dinner at one of Amritsar’s most iconic dining spots. (A curated list of restaurant options will be shared with you — pick your favorite!)
+   
                                     <br />
+                                    <br />
+                                    <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                    9:00 PM — Return to Stay
+
+
+                                    </span>
+
+                                    <br />
+                                    You’ll be taken back to your accommodation for a restful end to your incredible day in Amritsar.
+
                                 </p>
                                 <div className="row">
                                     {/* <div className="col-md-6">
@@ -219,7 +231,8 @@ const DayOnePackage = () => {
                                             <span className="flaticon-group" />{" "}
                                         </div>
                                         <div className="page-list-text">
-                                            <p>1-2 Persons</p>
+                                            <p>Welcome kits containing all eassentials for Amritsar trip.
+                                            </p>
                                         </div>
                                     </li>
                                     <li>
@@ -228,16 +241,18 @@ const DayOnePackage = () => {
                                             <span className="flaticon-wifi" />{" "}
                                         </div>
                                         <div className="page-list-text">
-                                            <p>Free Wifi</p>
+                                            <p> 24x7 representative available. 
+                                            </p>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="page-list-icon">
                                             {" "}
-                                            <span className="flaticon-clock-1" />{" "}
+                                            <span className="flaticon-group" />{" "}
                                         </div>
                                         <div className="page-list-text">
-                                            <p>200 sqft room</p>
+                                            <p> 7-seater cars
+                                            </p>
                                         </div>
                                     </li>
                                     <li>
@@ -246,16 +261,17 @@ const DayOnePackage = () => {
                                             <span className="flaticon-breakfast" />{" "}
                                         </div>
                                         <div className="page-list-text">
-                                            <p>Breakfast</p>
+                                            <p>Major entry tickets included.
+                                            </p>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="page-list-icon">
                                             {" "}
-                                            <span className="flaticon-towel" />{" "}
+                                            <span className="flaticon-wifi" />{" "}
                                         </div>
                                         <div className="page-list-text">
-                                            <p>Towels</p>
+                                            <p>In-vehicle Wifi available if required.</p>
                                         </div>
                                     </li>
 
