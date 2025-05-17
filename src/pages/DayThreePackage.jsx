@@ -1,4 +1,6 @@
 import Navbar from "./Navbar"
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 const DayThreePackage = () => {
     return (
@@ -622,11 +624,64 @@ const DayThreePackage = () => {
                                         </p>
                                     </div> */}
                                 <div className="col-md-12">
-                                    <div className="butn-dark mt-15 mb-30">
+                                    <div className="butn-dark mt-15 mb-25">
                                         {" "}
-                                        <a href="rooms2.html">
-                                            <span>Book Now</span>
-                                        </a>{" "}
+                                        <form
+                                            onSubmit={(e) => {
+                                                e.preventDefault();
+
+                                                Swal.fire({
+                                                    title: 'Enter your phone number',
+                                                    input: 'number',
+                                                    inputPlaceholder: 'e.g., 9876543210',
+                                                    showCancelButton: true,
+                                                    confirmButtonText: 'Book Now',
+                                                    cancelButtonText: 'Cancel',
+                                                    inputValidator: (value) => {
+                                                        if (!value) {
+                                                            return 'Phone number is required';
+                                                        }
+                                                        if (!/^\d{10}$/.test(value)) {
+                                                            return 'Please enter a valid 10-digit number';
+                                                        }
+                                                        return null;
+                                                    }
+                                                }).then((result) => {
+                                                    if (result.isConfirmed) {
+                                                        const phone = result.value;
+
+                                                        emailjs.send(
+                                                            "service_jf6k53b",
+                                                            "template_z5vkn6l",
+                                                            {
+                                                                package_name: "Day 3 Trip package",
+                                                                user_phone: phone,
+                                                                owner_email: "znzgroupasr@gmail.com",
+                                                            },
+                                                            "LvEjDrCif2WTsiHUy"
+                                                        )
+                                                            .then(
+                                                                (response) => {
+                                                                    Swal.fire('Success!', 'Booking request sent successfully!', 'success');
+                                                                    console.log("SUCCESS!", response.status, response.text);
+                                                                },
+                                                                (err) => {
+                                                                    Swal.fire('Error', 'Failed to send booking request.', 'error');
+                                                                    console.error("FAILED...", err);
+                                                                }
+                                                            );
+                                                    }
+                                                });
+                                            }}
+                                        >
+                                            <button type="submit" className="butn-dark mt-30 mb-45" style={{
+                                                backgroundColor: "#ab8a62",
+                                                padding: "13px 22px", color: "#fff", fontWeight: "400px", position: "relative", margin: "0", fontSize: "15px"
+                                            }}>
+                                                <span>Book Now</span>
+                                            </button>
+                                        </form>
+                                        {" "}
                                     </div>
                                 </div>
                             </div>

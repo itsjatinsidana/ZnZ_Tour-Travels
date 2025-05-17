@@ -1,5 +1,10 @@
 import Navbar from "./Navbar"
 
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
+
+
+
 const DayOnePackage = () => {
     return (
         <>
@@ -54,7 +59,7 @@ const DayOnePackage = () => {
                                     <i className="star-rating" />
                                     <i className="star-rating" />
                                 </span>
-                               
+
                                 <div className="section-title">Day 1 Trip</div>
                             </div>
                             <div className="col-md-8">
@@ -112,29 +117,29 @@ const DayOnePackage = () => {
                                     fontWeight: "normal",
                                     textAlign: "justify"
                                 }}>
-                                      <span style={{ fontWeight: "bold", fontSize: "18px" }}>
-                                      2:00 PM — Depart for Wagah Border
+                                    <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                                        2:00 PM — Depart for Wagah Border
                                     </span>
                                     <br />
                                     Head towards the Wagah Border early to secure a good viewing spot for the electrifying Beating Retreat Ceremony.
                                     <br /><br />
                                     <span style={{ fontWeight: "bold", fontSize: "18px" }}>
-                                    4:00 PM — Wagah Border Ceremony
+                                        4:00 PM — Wagah Border Ceremony
                                     </span>
-                                    <br/>
+                                    <br />
                                     Witness the iconic India-Pakistan border ceremony filled with patriotic energy, cheering crowds, and an unforgettable atmosphere.
                                     <br /><br />
                                     <span style={{ fontWeight: "bold", fontSize: "18px" }}>
-                                    7:30 PM — Dinner at an Iconic Amritsar Restaurant
+                                        7:30 PM — Dinner at an Iconic Amritsar Restaurant
 
                                     </span>
-                                    <br/>
+                                    <br />
                                     Experience a memorable dinner at one of Amritsar’s most iconic dining spots. (A curated list of restaurant options will be shared with you — pick your favorite!)
-   
+
                                     <br />
                                     <br />
                                     <span style={{ fontWeight: "bold", fontSize: "18px" }}>
-                                    9:00 PM — Return to Stay
+                                        9:00 PM — Return to Stay
 
 
                                     </span>
@@ -215,9 +220,66 @@ const DayOnePackage = () => {
                                     <div className="col-md-12">
                                         <div className="butn-dark mt-15 mb-30">
                                             {" "}
-                                            <a href="rooms2.html">
+                                            {/* <a href="rooms2.html">
                                                 <span>Book Now</span>
-                                            </a>{" "}
+                                            </a>{" "} */}
+
+                                            <form
+                                                onSubmit={(e) => {
+                                                    e.preventDefault();
+
+                                                    Swal.fire({
+                                                        title: 'Enter your phone number',
+                                                        input: 'number',
+                                                        inputPlaceholder: 'e.g., 9876543210',
+                                                        showCancelButton: true,
+                                                        confirmButtonText: 'Book Now',
+                                                        cancelButtonText: 'Cancel',
+                                                        inputValidator: (value) => {
+                                                            if (!value) {
+                                                                return 'Phone number is required';
+                                                            }
+                                                            if (!/^\d{10}$/.test(value)) {
+                                                                return 'Please enter a valid 10-digit number';
+                                                            }
+                                                            return null;
+                                                        }
+                                                    }).then((result) => {
+                                                        if (result.isConfirmed) {
+                                                            const phone = result.value;
+
+                                                            emailjs.send(
+                                                                "service_jf6k53b",
+                                                                "template_z5vkn6l",
+                                                                {
+                                                                    package_name: "Day 1 Trip package",
+                                                                    user_phone: phone,
+                                                                    owner_email: "znzgroupasr@gmail.com",
+                                                                },
+                                                                "LvEjDrCif2WTsiHUy"
+                                                            )
+                                                                .then(
+                                                                    (response) => {
+                                                                        Swal.fire('Success!', 'Booking request sent successfully!', 'success');
+                                                                        console.log("SUCCESS!", response.status, response.text);
+                                                                    },
+                                                                    (err) => {
+                                                                        Swal.fire('Error', 'Failed to send booking request.', 'error');
+                                                                        console.error("FAILED...", err);
+                                                                    }
+                                                                );
+                                                        }
+                                                    });
+                                                }}
+                                            >
+                                                <button type="submit" className="butn-dark mt-30 mb-45" style={{backgroundColor:"#ab8a62",
+                                                 padding:"13px 22px", color:"#fff", fontWeight:"400px",position:"relative",margin:"0",fontSize:"15px",
+                                                 letterSpacing:"3px", fontFamily:"Barlow Condensed  sans-serif"}}>
+                                                    <span>Book Now</span>
+                                                </button>
+                                            </form>
+
+
                                         </div>
                                     </div>
                                 </div>
@@ -241,7 +303,7 @@ const DayOnePackage = () => {
                                             <span className="flaticon-wifi" />{" "}
                                         </div>
                                         <div className="page-list-text">
-                                            <p> 24x7 representative available. 
+                                            <p> 24x7 representative available.
                                             </p>
                                         </div>
                                     </li>
