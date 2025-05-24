@@ -30,7 +30,7 @@ const ViewPackage = () =>{
             </span>
             <div className="con">
            
-              <h5><a href="room-details.html">Customize Plans</a></h5>
+              <h5><a href="room-details.html">Customized Plan</a></h5>
               <div className="line" />
               <div className="row facilities">
                 <div className="col col-md-5 text-end">

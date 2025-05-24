@@ -71,7 +71,7 @@ const PackageForm = () => {
             <section className="testimonials">
                 <div
                     className="background bg-img bg-fixed section-padding pb-0"
-                    data-background="img/slider/2.jpg"
+                    data-background="img/slider/aboutus.png"
                     data-overlay-dark={2}
                 >
                     <div className="container">

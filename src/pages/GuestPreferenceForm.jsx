@@ -1,21 +1,80 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
+import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
 
-// Hook for responsive breakpoint
+// Hook to detect screen width
 const useMobile = (breakpoint = 768) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= breakpoint);
-
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= breakpoint);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, [breakpoint]);
-
   return isMobile;
 };
 
 const GuestPreferenceForm = () => {
   const isMobile = useMobile();
+  const [formData, setFormData] = useState({
+    arrival: "",
+    stayDays: "",
+    people: "",
+    kids: "",
+    phone: "",
+    transport: "Sedan (4-seater)",
+    stayType: "Hotel",
+    budget: "3-Star",
+    food: "Vegetarian",
+    attractions: "",
+    wantRecommendations: "Yes",
+    gurdwara: "Yes",
+    heritage: "No",
+    specialNeeds: "",
+    other: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .send(
+      "service_1dtpu0o",
+        "template_5qzqvff",
+        formData,
+        "T5GZa8ePUdtU6cJCH"     // Replace with your public key
+      )
+      .then(
+        (response) => {
+          Swal.fire("Success", "Preferences sent successfully!", "success");
+          setFormData({
+            arrival: "",
+            stayDays: "",
+            people: "",
+            kids: "",
+            phone: "",
+            transport: "Sedan (4-seater)",
+            stayType: "Hotel",
+            budget: "3-Star",
+            food: "Vegetarian",
+            attractions: "",
+            wantRecommendations: "Yes",
+            gurdwara: "Yes",
+            heritage: "No",
+            specialNeeds: "",
+            other: "",
+          });
+        },
+        (err) => {
+          Swal.fire("Error", "Failed to send preferences.", "error");
+        }
+      );
+  };
 
   const containerStyle = {
     maxWidth: "1000px",
@@ -101,29 +160,26 @@ const GuestPreferenceForm = () => {
   return (
     <>
       <Navbar />
-
-      {/* Hero section */}
       <div
         className="banner-header section-padding valign bg-img bg-fixed"
         data-overlay-dark={7}
         data-background="img/slider/partition_muesem.jpeg"
-        style={{height:"550px"}}
+        style={{ height: "550px" }}
       >
         <div className="container">
           <div className="row">
             <div className="col-md-12 caption mt-90">
-             
-              <h1>Customize Plan</h1>
+              <h1>Customized Plan</h1>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Form */}
-      <div style={containerStyle}>
+      <form style={containerStyle} onSubmit={handleSubmit}>
         <h2 style={titleStyle}>ZnZ Travel & Stays - Guest Preference Questionnaire</h2>
         <p style={{ textAlign: "center", marginBottom: "30px" }}>
-          Thank you for choosing ZnZ Travel & Stays for your Amritsar visit. To ensure a smooth and customized experience, kindly fill out this short questionnaire.
+          Thank you for choosing ZnZ Travel & Stays for your Amritsar visit.
+          To ensure a smooth and customized experience, kindly fill out this short questionnaire.
         </p>
 
         {/* Section 1 */}
@@ -131,11 +187,23 @@ const GuestPreferenceForm = () => {
         <div style={rowStyle}>
           <div style={columnStyle}>
             <label style={labelStyle}>Arrival Date & Time</label>
-            <input type="datetime-local" style={inputStyle} />
+            <input
+              type="datetime-local"
+              name="arrival"
+              style={inputStyle}
+              value={formData.arrival}
+              onChange={handleChange}
+            />
           </div>
           <div style={columnStyle}>
             <label style={labelStyle}>Number of Days Staying</label>
-            <input type="number" style={inputStyle} />
+            <input
+              type="number"
+              name="stayDays"
+              style={inputStyle}
+              value={formData.stayDays}
+              onChange={handleChange}
+            />
           </div>
         </div>
 
@@ -144,18 +212,41 @@ const GuestPreferenceForm = () => {
         <div style={rowStyle}>
           <div style={columnStyle}>
             <label style={labelStyle}>Total number of people</label>
-            <input type="number" style={inputStyle} />
+            <input
+              type="number"
+              name="people"
+              style={inputStyle}
+              value={formData.people}
+              onChange={handleChange}
+            />
           </div>
           <div style={columnStyle}>
             <label style={labelStyle}>Number of kids (ages if possible)</label>
-            <input type="text" style={inputStyle} />
+            <input
+              type="text"
+              name="kids"
+              style={inputStyle}
+              value={formData.kids}
+              onChange={handleChange}
+            />
           </div>
+        </div>
+        <div style={fullWidthStyle}>
+          <label style={labelStyle}>Phone Number</label>
+          <input
+            type="tel"
+            name="phone"
+            style={inputStyle}
+            value={formData.phone}
+            onChange={handleChange}
+            required
+          />
         </div>
 
         {/* Section 3 */}
         <h3 style={sectionTitle}>3. Transportation Preferences</h3>
         <div style={fullWidthStyle}>
-          <select style={inputStyle}>
+          <select name="transport" style={inputStyle} value={formData.transport} onChange={handleChange}>
             <option>Sedan (4-seater)</option>
             <option>SUV (6-seater)</option>
             <option>Tempo Traveller (7+ seater)</option>
@@ -168,7 +259,7 @@ const GuestPreferenceForm = () => {
         <div style={rowStyle}>
           <div style={columnStyle}>
             <label style={labelStyle}>Preferred stay</label>
-            <select style={inputStyle}>
+            <select name="stayType" style={inputStyle} value={formData.stayType} onChange={handleChange}>
               <option>Hotel</option>
               <option>Homestay</option>
               <option>Villa</option>
@@ -176,7 +267,7 @@ const GuestPreferenceForm = () => {
           </div>
           <div style={columnStyle}>
             <label style={labelStyle}>Expected Budget</label>
-            <select style={inputStyle}>
+            <select name="budget" style={inputStyle} value={formData.budget} onChange={handleChange}>
               <option>3-Star</option>
               <option>4-Star</option>
               <option>5-Star</option>
@@ -189,7 +280,7 @@ const GuestPreferenceForm = () => {
         {/* Section 5 */}
         <h3 style={sectionTitle}>5. Food Preferences</h3>
         <div style={fullWidthStyle}>
-          <select style={inputStyle}>
+          <select name="food" style={inputStyle} value={formData.food} onChange={handleChange}>
             <option>Vegetarian</option>
             <option>Non-Vegetarian</option>
             <option>Mixed Preference</option>
@@ -200,11 +291,16 @@ const GuestPreferenceForm = () => {
         <h3 style={sectionTitle}>6. Attractions & Sightseeing</h3>
         <div style={fullWidthStyle}>
           <label style={labelStyle}>Must-visit places you'd like to see</label>
-          <textarea style={textareaStyle} />
+          <textarea name="attractions" style={textareaStyle} value={formData.attractions} onChange={handleChange} />
         </div>
         <div style={fullWidthStyle}>
           <label style={labelStyle}>Would you like recommendations from us?</label>
-          <select style={inputStyle}>
+          <select
+            name="wantRecommendations"
+            style={inputStyle}
+            value={formData.wantRecommendations}
+            onChange={handleChange}
+          >
             <option>Yes</option>
             <option>No</option>
           </select>
@@ -214,7 +310,7 @@ const GuestPreferenceForm = () => {
         <h3 style={sectionTitle}>7. Spiritual Experience</h3>
         <div style={fullWidthStyle}>
           <label style={labelStyle}>Comfortable with Gurdwara Darshan early morning?</label>
-          <select style={inputStyle}>
+          <select name="gurdwara" style={inputStyle} value={formData.gurdwara} onChange={handleChange}>
             <option>Yes</option>
             <option>No</option>
           </select>
@@ -224,7 +320,7 @@ const GuestPreferenceForm = () => {
         <h3 style={sectionTitle}>8. Heritage Walk Experience</h3>
         <div style={fullWidthStyle}>
           <label style={labelStyle}>Would you like to do a Heritage Walk?</label>
-          <select style={inputStyle}>
+          <select name="heritage" style={inputStyle} value={formData.heritage} onChange={handleChange}>
             <option>No</option>
             <option>A local guide</option>
             <option>A special guide</option>
@@ -235,15 +331,15 @@ const GuestPreferenceForm = () => {
         <h3 style={sectionTitle}>9. Additional Requests</h3>
         <div style={fullWidthStyle}>
           <label style={labelStyle}>Special arrangements (wheelchair, celebrations, etc.)</label>
-          <textarea style={textareaStyle} />
+          <textarea name="specialNeeds" style={textareaStyle} value={formData.specialNeeds} onChange={handleChange} />
         </div>
         <div style={fullWidthStyle}>
           <label style={labelStyle}>Any other requirements or preferences?</label>
-          <textarea style={textareaStyle} />
+          <textarea name="other" style={textareaStyle} value={formData.other} onChange={handleChange} />
         </div>
 
         <button type="submit" style={buttonStyle}>Submit Preferences</button>
-      </div>
+      </form>
     </>
   );
 };
