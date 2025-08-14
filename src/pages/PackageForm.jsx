@@ -39,7 +39,7 @@ const PackageForm = () => {
             return;
         }
         const emailJSData = {
-            service_id: "service_jf6k53b",
+            service_id: "service_ktpq45k",
             template_id: "template_xyxtonl",
             user_id: "LvEjDrCif2WTsiHUy",
             template_params: {

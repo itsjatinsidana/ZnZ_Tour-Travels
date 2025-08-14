@@ -473,7 +473,7 @@ const DayTwoPackage = () => {
                                                             const phone = result.value;
 
                                                             emailjs.send(
-                                                                "service_jf6k53b",
+                                                                "service_ktpq45k",
                                                                 "template_z5vkn6l",
                                                                 {
                                                                     package_name: "Day 2 Trip package",
